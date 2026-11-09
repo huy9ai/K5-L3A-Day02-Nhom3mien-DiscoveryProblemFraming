@@ -149,7 +149,7 @@ Quy trình nháp hiện tại:
 | **Quy trình nhóm** | Đóng góp ý kiến phân vai phối hợp trong nhóm và xây dựng sơ đồ quy trình trước/sau (Before/After) dưới dạng mã Mermaid và bảng biểu chi tiết. | Làm rõ Bottleneck ở khâu đọc dò chéo bằng mắt suốt 7 phút, từ đó thiết kế giải pháp kết hợp **Rule + AI Workflow**. |
 | **Problem Statement** | Viết và gọt giủa bảng Problem Statement v0 cho bài nhóm (gồm Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary). | Thống nhất tuyên bố bài toán sắc sảo với mục tiêu kéo thời gian kiểm tra từ 18 phút xuống dưới 3 phút và triệt tiêu hoàn toàn tỷ lệ sót mục. |
 | **Mức can thiệp AI** | Đóng góp tư duy phân tách mức độ can thiệp AI thành 2 tầng rõ rệt: **Rule-based** (bắt lỗi cú pháp, ô trống, template thừa bằng code) và **AI Workflow** (đối chiếu ngữ nghĩa Rubric). | Giúp kiến trúc giải pháp vừa có độ chính xác tuyệt đối ở các lỗi cơ học vừa có khả năng hiểu ngữ nghĩa thông minh, tránh lạm dụng LLM vào việc không cần thiết. |
-| **Quyết định** | Đóng vai trò chốt phương án xây dựng công cụ **Pre-submit Check** tự động chạy kết hợp Rule + AI để rà soát lỗi nhanh chóng, an toàn trước giờ đóng form. | Giúp nhóm có một hướng đi cụ thể, rõ ràng, vừa sức lab và giải quyết trọn vẹn nỗi đau thực tế của sinh viên. |
+| **Quyết định** | Đóng vai trò chốt phương án xây dựng công cụ **Pre-submit Check** tự động chạy kết hợp Rule + AI để rà soát lỗi nhanh chóng, an toàn trước giờ đóng form. | Giúp nhóm có một hướng đi cụ thể, rõ ràng, vừa sức và giải quyết trọn vẹn nỗi đau thực tế của học viên. |
 
 ---
 
