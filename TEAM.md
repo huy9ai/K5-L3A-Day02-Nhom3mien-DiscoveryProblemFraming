@@ -13,9 +13,9 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Phan Trọng Hậu | 2A202603547 | Phụ trách chính CP3; phản biện, khảo sát và trao đổi giải pháp chung | [Phan-Trong-Hau](https://github.com/Phan-Trong-Hau) |
-| 2 | Ngô Đức Thịnh | 2A202603548 | | |
-| 3 | Đinh Trần Nguyên | 2A202603517 | | |
-| 4 | Bùi Gia Huy | 2A202603525 | | |
+| 2 | Ngô Đức Thịnh | 2A202603548 | Phụ trách chính CP5: quy trình trước/sau và Problem Statement v0; tham gia trao đổi các phần còn lại | [NgooThinh05](https://github.com/NgooThinh05) |
+| 3 | Đinh Trần Nguyên | 2A202603517 | Phụ trách chính CP4: kiểm chứng và research; cùng Hậu thực hiện khảo sát; tham gia trao đổi các phần còn lại | [nguyentrandinh-hub](https://github.com/nguyentrandinh-hub) |
+| 4 | Bùi Gia Huy | 2A202603525 | Phụ trách chính CP6: mức can thiệp, Problem Statement v1 và quyết định; tham gia trao đổi các phần còn lại | [huy9ai](https://github.com/huy9ai) |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
