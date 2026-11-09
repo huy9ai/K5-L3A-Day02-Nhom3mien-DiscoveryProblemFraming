@@ -164,7 +164,7 @@ Chưa xác định bước mất thời gian nhiều nhất.
 
 ### Card muốn pitch nhất
 
-- Card số:
+- Card số: 3
 - Vì sao:
 - Câu hỏi muốn nhóm phản biện:
 
