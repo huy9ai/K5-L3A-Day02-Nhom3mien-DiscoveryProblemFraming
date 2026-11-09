@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhóm 3 miền
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Phan Trọng Hậu | 2A202603547 | | |
+| 2 | Ngô Đức Thịnh | 2A202603548 | | |
+| 3 | Đinh Trần Nguyên | 2A202603517 | | |
+| 4 | Bùi Gia Huy | 2A202603525 | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
