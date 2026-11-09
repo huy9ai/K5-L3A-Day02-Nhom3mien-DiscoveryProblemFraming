@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Phan Trọng Hậu | 2A202603547 | Phụ trách chính CP3; phản biện, khảo sát và trao đổi giải pháp chung | |
+| 1 | Phan Trọng Hậu | 2A202603547 | Phụ trách chính CP3; phản biện, khảo sát và trao đổi giải pháp chung | [Phan-Trong-Hau](https://github.com/Phan-Trong-Hau) |
 | 2 | Ngô Đức Thịnh | 2A202603548 | | |
 | 3 | Đinh Trần Nguyên | 2A202603517 | | |
 | 4 | Bùi Gia Huy | 2A202603525 | | |
