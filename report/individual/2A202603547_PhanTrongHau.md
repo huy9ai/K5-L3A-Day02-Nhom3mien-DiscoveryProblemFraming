@@ -1,6 +1,5 @@
 # Báo cáo cá nhân — 2A202603547 · Phan Trọng Hậu
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 > Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
 
@@ -26,7 +25,7 @@
 | 4 | Cần đọc, tổng hợp nhiều thông tin · Tốn thời gian | Bị cuốn vào nội dung ngoài công việc khi phải kiểm tra nhiều nền tảng | Khi phải vào Facebook, Instagram, Zalo, Discord và các kênh khác để xử lý công việc, tôi muốn nắm và xử lý được thông tin cần thiết mà không bị cuốn sang nội dung ngoài công việc, để không mất quá nhiều thời gian ở một nền tảng rồi bỏ lỡ thông tin quan trọng ở kênh khác. | Người phải dùng nhiều nền tảng để trao đổi và xử lý công việc | Học viên mô tả việc phải truy cập các nền tảng để làm việc nhưng bị giữ lại lâu, đôi khi nhỡ thông tin quan trọng ở kênh khác. Cần ghi một lần cụ thể: mục đích truy cập, thời gian xử lý việc và lướt ngoài mục đích, kênh bị chậm kiểm tra và thông tin đã nhỡ. Chưa có số phút hoặc tần suất. |
 | 5 | Tốn thời gian | Quyết định bữa ăn và mua thực phẩm | Khi chuẩn bị bữa tối với nguyên liệu đang có và ngân sách giới hạn, tôi muốn chọn được món phù hợp và biết cần mua thêm gì, để không mất nhiều thời gian cân nhắc hoặc mua trùng đồ. | Người tự nấu ăn | Ghi thời gian chọn món ở một lần gần nhất, số món đồ mua trùng hoặc thực phẩm bỏ đi trong tuần nếu có. |
 | 6 | Pain từ người khác · Tốn thời gian | Bộ nhớ giới hạn, khó lọc ảnh trùng và ảnh rác để giải phóng dung lượng | Khi bộ nhớ lưu ảnh gần đầy và có nhiều ảnh trùng hoặc không còn cần dùng, tôi muốn xác định những ảnh có thể xóa và giữ lại ảnh quan trọng, để giải phóng đủ dung lượng mà không phải kiểm từng ảnh hoặc xóa nhầm kỷ niệm. | Dương — bạn gái của học viên, người nêu vấn đề với học viên | Nguồn pain: bạn gái Dương đã nêu với học viên việc dung lượng bị giới hạn và cần lọc ảnh trùng, ảnh rác. Chưa ghi thời điểm/cách trao đổi hoặc số liệu. Cần bổ sung dung lượng trống, số ảnh, thời gian dọn và dung lượng thực thu hồi. |
-| 7 | Pain từ người khác · Cần đọc, tổng hợp nhiều thông tin | Khó kiểm soát thay đổi trong tài liệu giao dịch do bên thứ ba cập nhật | Khi bên thứ ba gửi bản cập nhật của tài liệu giao dịch đã được rà soát, tôi muốn xác định họ đã thay đổi những điều khoản, số liệu và thông tin nào so với bản trước, để chuyển đúng nội dung cần kiểm tra và phê duyệt trước khi công ty tiếp tục giao dịch. | Nguồn pain: các bạn admin đã nêu với học viên việc cần kiểm soát thay đổi trong tài liệu bên thứ ba cập nhật. Chưa ghi số người, thời điểm/cách trao đổi hoặc số liệu. Cần một cặp phiên bản được phép dùng, số trang, thời gian rà và thay đổi từng bị bỏ sót nếu có. | Chọn một cặp phiên bản được phép sử dụng và đã che thông tin nhạy cảm; ghi số trang, thời gian đối chiếu, số thay đổi cần trình duyệt và trường hợp bỏ sót nếu có. Chưa có số liệu thực tế được cung cấp. |
+| 7 | Pain từ người khác · Cần đọc, tổng hợp nhiều thông tin | Khó kiểm soát thay đổi trong tài liệu giao dịch do bên thứ ba cập nhật | Khi bên thứ ba gửi bản cập nhật của tài liệu giao dịch đã được rà soát, tôi muốn xác định họ đã thay đổi những điều khoản, số liệu và thông tin nào so với bản trước, để chuyển đúng nội dung cần kiểm tra và phê duyệt trước khi công ty tiếp tục giao dịch. | Kế toán/admin công ty phụ trách hồ sơ giao dịch với bên thứ ba | Nguồn pain: các bạn admin đã nêu với học viên việc cần kiểm soát thay đổi trong tài liệu bên thứ ba cập nhật. Chưa ghi số người, thời điểm/cách trao đổi hoặc số liệu. Cần một cặp phiên bản được phép dùng, số trang, thời gian rà và thay đổi từng bị bỏ sót nếu có. |
 
 **Nếu có dùng AI để gợi ý thêm:**
 
@@ -150,10 +149,10 @@ TỔNG: 40 phút/phiên; trong đó 20 phút ngoài mục đích (giả định)
 
 **Phân biệt với CP1 #3:** #3 là khó dừng khi chủ động mở mạng xã hội để giải trí; PC#3 này tương ứng CP1 #4, bắt đầu từ nhu cầu công việc bắt buộc phải truy cập. Trọng tâm là thời gian bị lệch khỏi công việc và độ trễ thông tin giữa các kênh, không chỉ tổng thời gian dùng mạng xã hội.
 
-### Card muốn pitch nhất
+### Card đã chọn để pitch
 
-- **Card số:** Đề xuất #1 — Kiểm soát thay đổi tài liệu giao dịch từ bên thứ ba.
-- **Vì sao:** Kế toán/admin cần biết chính xác bên thứ ba đã sửa gì trước khi chuyển hồ sơ giao dịch để phê duyệt. Điểm cần kiểm chứng là công sức đọc và phân loại thay đổi theo checklist sau khi công cụ so sánh văn bản đã chỉ ra khác biệt. Điều kiện để pitch: có cặp tài liệu được phép dùng và người hiểu quy trình rà soát của công ty.
+- **Card số:** #1 — Kiểm soát thay đổi tài liệu giao dịch từ bên thứ ba.
+- **Vì sao:** Kế toán/admin cần biết chính xác bên thứ ba đã sửa gì trước khi chuyển hồ sơ giao dịch để phê duyệt. Điểm cần kiểm chứng là công sức đọc và phân loại thay đổi theo checklist sau khi công cụ so sánh văn bản đã chỉ ra khác biệt. Nguồn pain là các bạn admin nêu với tôi; khi kiểm chứng tiếp cần có cặp tài liệu được phép dùng và người hiểu quy trình rà soát của công ty.
 - **Câu hỏi muốn nhóm phản biện:** “So sánh văn bản và Rule đã kiểm được bao nhiêu phần? AI giúp giảm công rà soát nào, và làm sao phát hiện nếu AI bỏ sót thay đổi ảnh hưởng thanh toán hoặc điều khoản cần trình duyệt?”
 
 ### AI đã phản biện card thế nào
@@ -166,13 +165,13 @@ Bảng dưới ghi cả điểm học viên đã sửa lại nhận định củ
 |---|---|---|
 | AI ban đầu mô tả các card như tình huống giả định, chưa phản ánh đúng nguồn pain thực tế | Không đồng ý với cách mô tả ban đầu; học viên đã làm rõ nguồn | Sửa PC#1 thành pain các bạn admin nêu, PC#2 thành pain bạn gái Dương nêu, PC#3 thành trải nghiệm công việc của học viên. Chỉ giữ nhãn ước lượng cho số phút và quy trình chưa được đối chiếu chi tiết. |
 | Pain đã có người nêu nhưng chưa có số liệu để xác định mức độ và đo hiệu quả | Chưa có số đo được cung cấp | Tách bằng chứng về nguồn pain khỏi baseline; bổ sung cách ghi thời gian, tần suất và ảnh hưởng cho từng card, không coi thời gian ước lượng là số liệu thật. |
-| Card #1 có thể chỉ cần so sánh văn bản và Rule; “quan trọng” phụ thuộc quy trình công ty | Chờ học viên xác nhận | Giới hạn một loại tài liệu, yêu cầu checklist và người có thẩm quyền xác nhận các thay đổi chuẩn; nêu nhóm trường liên quan giao dịch cần theo dõi. |
+| Card #1 có thể chỉ cần so sánh văn bản và Rule; “quan trọng” phụ thuộc quy trình công ty | Đồng ý với việc so sánh phương án: tôi chưa chốt giải pháp, code giải tốt thì không cần LLM | Giới hạn một loại tài liệu, yêu cầu checklist và người có thẩm quyền xác nhận các thay đổi chuẩn; nêu nhóm trường liên quan giao dịch cần theo dõi. |
 | Card #1 dễ suy diễn ảnh hưởng pháp lý hoặc nhầm bản đối chiếu chuẩn | Chờ học viên xác nhận | Xác nhận bản đã rà soát/chấp thuận, buộc dẫn nguồn thay đổi; AI chỉ gắn cờ, kế toán kiểm số liệu và người có thẩm quyền rà điều khoản; không tự ký hay thanh toán. |
 | Card #2 không thể mặc định ảnh mờ/gần giống là rác; xóa ảnh chưa chắc đã thu hồi dung lượng tại nơi bị giới hạn | Chờ học viên xác nhận | Dương xác nhận tiêu chí và danh sách xóa; đo đúng dung lượng trống trước/sau, lưu ý thùng rác và bản sao; không tự xóa ảnh quan trọng. |
 | Card #3 có thể chỉ gom thông tin mà vẫn buộc người dùng mở từng nền tảng, nên chưa giảm xao nhãng | Chờ học viên xác nhận | Nêu rõ điều kiện tiếp cận nguồn và đo cả công nhập liệu; so với vào thẳng thread, giới hạn phiên và chặn nội dung trước khi chọn AI. |
 | Card #3 đo tổng thời gian ứng dụng sẽ nhầm công việc với lướt ngoài mục đích; lọc sai còn có thể làm nhỡ tin | Chờ học viên xác nhận | Tách thời gian ngoài mục đích, đo độ trễ và số tin quan trọng bị bỏ sót; giữ link nguồn và không tự ẩn tin chưa chắc. |
 
-**Cần bổ sung trước khi dùng để pitch:** Giữ đúng nguồn pain đã được học viên xác nhận; ghi lại một tình huống cụ thể cho mỗi case, đối chiếu các bước và thay số phút ước lượng bằng số đo. Xác nhận các phản biện đã chấp nhận và card muốn pitch nhất.
+**Phần còn cần kiểm chứng:** Nguồn pain và card đã pitch được ghi tại mục 4. Các số phút ở CP2 chưa có phép đo; cần bổ sung tình huống cụ thể và thời gian thực tế. Các phản biện còn ghi chờ xác nhận chưa được coi là quyết định cá nhân.
 
 ---
 
@@ -189,7 +188,7 @@ Bảng dưới ghi cả điểm học viên đã sửa lại nhận định củ
 | Quy trình nhóm | Cùng các bạn trao đổi về quy trình và hướng giải quyết chung. | |
 | Problem Statement | Cùng các bạn trao đổi về cách mô tả vấn đề và giải pháp của nhóm. | |
 | Mức can thiệp AI | Tham gia trao đổi về phương án xử lý và mức sử dụng AI; không mặc định mọi vấn đề đều cần LLM. | |
-| Quyết định | Cùng các thành viên trao đổi để đưa ra hướng giải quyết chung. | |
+| Quyết định | Cùng các thành viên trao đổi để đưa ra hướng giải quyết chung. | Báo cáo nhóm chốt Not Yet cho phần AI Workflow, cần tiếp tục kiểm chứng hiệu quả so với Checklist + Rule. |
 
 ---
 
@@ -199,10 +198,10 @@ Bảng dưới ghi cả điểm học viên đã sửa lại nhận định củ
 |---|---|---|---|---|
 | CP1 Scan | AI gợi ý và chỉnh Job Story theo phản hồi của học viên | Mở rộng phạm vi ngoài bài lab, chuẩn hóa 7 problem được giữ | Chưa có số liệu trải nghiệm cá nhân | Học viên đã chọn, loại và sửa các ý; cần bổ sung dấu hiệu thật |
 | CP2 Problem Card | AI hỗ trợ cấu trúc card từ các case thực tế và phản biện như PM hoài nghi | Làm rõ actor, phạm vi, đối chứng không AI và cách đo | Ban đầu mô tả nguồn pain như tình huống giả định; số phút còn là ước lượng | Học viên làm rõ nguồn: admin nêu case tài liệu, bạn gái Dương nêu case ảnh, bản thân gặp case nhiều nền tảng; báo cáo đã sửa nguồn, cần bổ sung số đo |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Chưa xác nhận việc sử dụng AI riêng ở phần này | | | |
+| CP5 Quy trình | Chưa xác nhận việc sử dụng AI riêng ở phần này | | | |
+| CP5–6 Problem Statement | Chưa xác nhận việc sử dụng AI riêng ở phần này | | | |
+| CP6 Mức can thiệp / quyết định | Chưa xác nhận việc sử dụng AI riêng ở phần này | | | |
 | CP7 Ghi chép | Nhờ AI sắp xếp các ý và câu hỏi phản biện tôi đã cung cấp, đối chiếu báo cáo nhóm và gợi ý câu hỏi còn thiếu | Đặt các sự kiện đã kể vào đúng mục báo cáo | AI chưa biết câu trả lời, thay đổi quan điểm và kết quả thảo luận | Yêu cầu giữ đúng trải nghiệm đã kể, không lấy cảm nhận của người khác làm của mình; cần tự rà và hoàn thiện lời văn reflection |
 
 ---
@@ -247,11 +246,16 @@ Nhóm chọn vấn đề học viên dễ bỏ sót yêu cầu khi kiểm tra b�
 
 ## 7. Tài liệu tham khảo
 
--
+- [Báo cáo nhóm — CP3–CP6](../team/group_report.md): phần hội tụ, kiểm chứng và hướng giải quyết chung.
+- [Worksheet](../../docs/01-worksheet.md): cấu trúc Job Story, Problem Card và các checkpoint.
+- [Checkpoints](../../CHECKPOINTS.md), [Rubric](../../RUBRIC.md) và [Rules](../../RULES.md): yêu cầu đầu ra, cách chấm và giới hạn sử dụng AI.
 
 ---
 
-## 8. Các ý còn cần học viên bổ sung
+## 8. Những thông tin còn cần xác nhận
 
-- **6.5:** Đã thêm ví dụ về cách đặt và đo Success Metric từ báo cáo nhóm. Học viên cần xác nhận đây có đúng là khó khăn mình gặp không, rồi tự sửa thành câu trả lời cá nhân.
-- **Tự kiểm:** Rà lại phần 6.1–6.7 bằng lời của mình, đặc biệt chuỗi giải thích ở 6.7; sửa chi tiết nào chưa đúng trải nghiệm. Chưa có thông tin để điền nhật ký dùng AI riêng ở CP4–CP6.
+- **CP1:** Bổ sung dấu hiệu thật đo được cho ít nhất 5 problem. Nguồn pain đã có nhưng chưa đủ thời gian, tần suất hoặc số người cụ thể; không lấy số phút giả định ở CP2 làm bằng chứng.
+- **CP2:** Đối chiếu các bước và số phút với cách làm thật; xác nhận các phản biện còn để trạng thái chờ. Việc người dùng nêu pain là thật không đồng nghĩa các thời gian mô hình đã được đo.
+- **6.5:** Ví dụ Success Metric là gợi ý từ báo cáo nhóm, chưa được xác nhận là khó khăn cá nhân của tôi. Cần tự xác nhận hoặc thay bằng trải nghiệm đúng.
+- **Nhật ký AI:** Các dòng CP4–CP6 chưa có thông tin về việc tôi dùng AI riêng; không mặc định là đã dùng hoặc không dùng.
+- **Tự kiểm CP7:** Đọc lại và tự diễn đạt 6.1–6.7, đặc biệt phần giải thích bài nhóm ở 6.7.
