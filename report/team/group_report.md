@@ -133,7 +133,7 @@ Giả định nhóm kiểm chứng trong buổi này: Việc hiểu thiếu yêu
 
 ### 3.2. Kiểm chứng
 
-**Cách đã dùng:** Phỏng vấn (dữ liệu giả lập để minh họa).
+**Cách đã dùng:** Phỏng vấn học viên tham gia Coding Lab. Ba interview snapshot dưới đây ghi dữ liệu thực tế nhóm đã thu thập ở CP4.
 
 **Interview snapshot 1**
 
@@ -165,18 +165,18 @@ Giả định nhóm kiểm chứng trong buổi này: Việc hiểu thiếu yêu
 | Câu nói đáng nhớ nhất (nguyên văn)                | "Em đọc README thấy một cách đặt tên repo, nhưng trong file hướng dẫn nộp bài lại ghi khác nên không biết phải làm theo cái nào."                                                                                                            |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi chuẩn bị nộp bài lab, P3 nhận thấy quy định đặt tên repository trong README và SUBMISSION chưa thống nhất. P3 phải đọc lại các tài liệu và hỏi người hướng dẫn để xác định quy định cần áp dụng.                                         |
 | Hiện đang xử lý bằng cách nào (workaround)?       | Đối chiếu các file hướng dẫn, hỏi người hướng dẫn hoặc trợ giảng khi phát hiện thông tin mâu thuẫn.                                                                                                                                          |
-| Mất bao lâu, bao lần?                             | Khoảng 10–15 phút để kiểm tra và xác nhận lại. Ghi nhận 1 lần gặp tình huống này (giả lập).                                                                                                                                                  |
+| Mất bao lâu, bao lần?                             | Khoảng 10–15 phút để kiểm tra và xác nhận lại. Ghi nhận 1 lần gặp tình huống này.                                                                                                                                                  |
 | Insight / opportunity rút ra                      | Khó khăn không chỉ đến từ việc học viên hiểu thiếu yêu cầu mà còn từ thông tin chưa thống nhất giữa các tài liệu. Cần giúp học viên phát hiện những yêu cầu mâu thuẫn và xác định nguồn cần được xác nhận, thay vì tự lựa chọn một quy định. |
 
 **Tổng hợp:**
 
 | Nguồn                                   | Số người / số mẫu | Tín hiệu xác nhận                                                                                                                                   | Tín hiệu phản bác                                                                                                |
 | --------------------------------------- | ----------------: | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Phỏng vấn học viên Coding Lab (giả lập) |                 3 | P1 bỏ sót nội dung do hiểu thiếu rubric. P2 gặp khó khăn vì yêu cầu nằm ở nhiều file. P3 gặp thông tin chưa thống nhất giữa các tài liệu hướng dẫn. | P2 phát hiện và sửa kịp nhờ checklist. P3 chưa xác nhận việc mâu thuẫn tài liệu dẫn đến bỏ sót nội dung khi nộp. |
+| Phỏng vấn học viên Coding Lab |                 3 | P1 bỏ sót nội dung do hiểu thiếu rubric. P2 gặp khó khăn vì yêu cầu nằm ở nhiều file. P3 gặp thông tin chưa thống nhất giữa các tài liệu hướng dẫn. | P2 phát hiện và sửa kịp nhờ checklist. P3 chưa xác nhận việc mâu thuẫn tài liệu dẫn đến bỏ sót nội dung khi nộp. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
-Từ các tình huống giả lập, nhóm đề xuất mở rộng nguyên nhân của vấn đề: học viên không chỉ có nguy cơ bỏ sót yêu cầu do hiểu thiếu, mà còn gặp khó khăn khi yêu cầu phân tán hoặc chưa thống nhất giữa nhiều tài liệu.
+Từ các tình huống được người tham gia phỏng vấn kể lại, nhóm mở rộng nguyên nhân của vấn đề: học viên không chỉ có nguy cơ bỏ sót yêu cầu do hiểu thiếu, mà còn gặp khó khăn khi yêu cầu phân tán hoặc chưa thống nhất giữa nhiều tài liệu.
 
 **Problem được đề xuất điều chỉnh:**
 
@@ -365,7 +365,7 @@ Vì sao:
 | **Quy trình**                                   | 1. Thu thập và đối chiếu yêu cầu nằm ở nhiều file (`README`, `CHECKPOINTS`, `RUBRIC`, `SUBMISSION`, `worksheet`) → 2. Kiểm tra cấu trúc file, ô bảng trống, chữ mẫu thừa và tài nguyên đính kèm → 3. Đọc dò chéo nội dung đã viết với từng tiêu chí chấm của Rubric → 4. Tự chỉnh sửa các mục thiếu/chưa đạt và phát hiện điểm chưa thống nhất giữa các file hướng dẫn → 5. Commit & nộp bài. |
 | **Bottleneck**                                  | **Bước 2 & Bước 3 (mất ~10–15 phút/lần nộp, trên tổng 15–20 phút rà soát):** Học viên phải mở nhiều file Markdown để cuộn đọc và đối chiếu bằng mắt thường lúc sát hạn nộp. Mắt người dễ bỏ lọt các lỗi định dạng/dòng mẫu thừa, hiểu thiếu yêu cầu chi tiết trong Rubric (như thiếu baseline/target), hoặc bối rối khi thông tin giữa các file hướng dẫn (`README` vs `SUBMISSION`) chưa thống nhất. |
 | **Impact**                                      | Tốn **15–20 phút/lần nộp** (ước tính từ CP2/CP4) cho việc dò thủ công mỏi mắt; vẫn xảy ra tình trạng bỏ sót nội dung bắt buộc chỉ phát hiện sau khi đã nộp (ghi nhận 4/12 bài phải commit bổ sung ở nguồn cá nhân, hoặc mất điểm đáng tiếc ở các mục nhỏ trong Rubric). |
-| **Success Metric** (baseline → target, cách đo) | • **Thời gian rà soát và xác minh yêu cầu trước khi nộp:** Giảm từ **15–20 phút/lần (baseline ước tính)** → **Dưới 3 phút/lần (target)** (gồm ~20 giây chạy công cụ + ~2 phút đọc cảnh báo và sửa).<br>• **Tỷ lệ bài nộp còn sót mục bắt buộc / lỗi cấu trúc cơ học:** Giảm về **0% đối với lỗi cấu trúc (nhờ Rule)** và **giảm ≥80% lỗi thiếu thành phần ngữ nghĩa theo Rubric**.<br>• *(Lưu ý minh bạch từ CP3–CP4: Các con số baseline hiện dựa trên ước lượng cá nhân và phỏng vấn minh họa; cần đo bấm giờ thực tế trên 5–10 học viên ở bước kiểm chứng tiếp theo trước khi chốt baseline cứng).* |
+| **Success Metric** (baseline → target, cách đo) | • **Thời gian rà soát và xác minh yêu cầu trước khi nộp:** Giảm từ **15–20 phút/lần (baseline ước tính)** → **Dưới 3 phút/lần (target)** (gồm ~20 giây chạy công cụ + ~2 phút đọc cảnh báo và sửa).<br>• **Tỷ lệ bài nộp còn sót mục bắt buộc / lỗi cấu trúc cơ học:** Giảm về **0% đối với lỗi cấu trúc (nhờ Rule)** và **giảm ≥80% lỗi thiếu thành phần ngữ nghĩa theo Rubric**.<br>• *(Lưu ý minh bạch từ CP3–CP4: Các con số thời gian hiện dựa trên ước lượng cá nhân và thời gian người tham gia phỏng vấn thực tế tự báo cáo ở CP4; cần bổ sung đo bấm giờ trên 5–10 học viên để kiểm tra độ ổn định của baseline).* |
 | **Boundary**                                    | • **Hệ thống KHÔNG ĐƯỢC:** Tự động viết thêm, sửa đè nội dung vào file báo cáo của học viên; không tự ý chọn một quy định khi phát hiện hai file hướng dẫn mâu thuẫn nhau; không tự động commit/nộp bài; không cam kết hay chấm điểm số cuối cùng thay giảng viên.<br>• **Con người kiểm tra (HITL):** Hệ thống chỉ xuất **Báo cáo kiểm tra chỉ đọc (Read-only Pre-submit Report)**; học viên giữ 100% quyền xem xét cảnh báo, hỏi lại TA khi có mâu thuẫn tài liệu, tự viết nội dung bổ sung và bấm nộp. |
 | **AI intervention point**                       | Can thiệp ở **Bước 3 (Đối chiếu ngữ nghĩa nội dung bài làm với Rubric & phát hiện điểm mâu thuẫn giữa các tài liệu hướng dẫn)**, nằm ngay sau **Bước 2 (Rule-based quét cấu trúc/cú pháp cứng)** và trước **Bước 4 (Con người tự sửa bài)**. |
 | **Mức chọn**                                    | **Workflow** *(Kết hợp **Rule** ở Bước 2 + **AI Workflow** cố định ở Bước 3)* |
@@ -376,7 +376,7 @@ Vì sao:
 | Trường | v0 | v1 | Vì sao đổi |
 | ------ | --- | --- | ---------- |
 | **Nguyên nhân trong Quy trình & Bottleneck** | Chỉ tập trung vào việc học viên mỏi mắt đọc sót yêu cầu trong Rubric lúc khuya. | Bổ sung thêm nguyên nhân **yêu cầu phân tán và đôi khi chưa thống nhất giữa các file (`README`, `CHECKPOINTS`, `RUBRIC`, `SUBMISSION`)**. | Cập nhật trực tiếp từ kết quả CP4 (Interview P2, P3): khó khăn không chỉ do học viên đọc ẩu mà còn do tài liệu nằm ở nhiều file và có chỗ quy định khác nhau (ví dụ: cách đặt tên repo). |
-| **Success Metric** | Ghi cứng baseline `18 phút → dưới 3 phút` và `4/12 bài → 0 bài` như số liệu đã đo chuẩn. | Tách rõ mục tiêu cho tầng Rule (0% lỗi cấu trúc) và tầng AI Workflow, đồng thời **ghi chú rõ baseline hiện tại là số ước tính cá nhân cần đo thực nghiệm thêm**. | Tuân thủ tính trung thực dữ liệu đã nêu ở CP3 & CP4: không biến con số ước tính của 1 cá nhân hoặc phỏng vấn giả lập thành số liệu đo lường toàn cục khi chưa test thật. |
+| **Success Metric** | Ghi cứng baseline `18 phút → dưới 3 phút` và `4/12 bài → 0 bài` như số liệu đã đo chuẩn. | Tách rõ mục tiêu cho tầng Rule (0% lỗi cấu trúc) và tầng AI Workflow, đồng thời **ghi chú rõ baseline hiện tại là số ước tính cá nhân cần đo thực nghiệm thêm**. | Tuân thủ tính trung thực dữ liệu đã nêu ở CP3 & CP4: không coi ước tính cá nhân hoặc thời gian tự báo cáo trong mẫu phỏng vấn thực tế là số đo bấm giờ đại diện cho toàn bộ học viên. |
 | **Boundary** | Chỉ nêu AI không tự viết bài và không tự bấm nộp. | Bổ sung thêm: **AI không tự ý chọn/quyết định quy tắc khi phát hiện 2 tài liệu hướng dẫn mâu thuẫn nhau** (phải gắn cờ báo học viên hỏi TA/Giảng viên) và **không chấm điểm số thay giảng viên**. | Rút ra từ bài học của P3 ở CP4 và nghiên cứu Google NotebookLM ở mục 3.3: khi nguồn tài liệu mâu thuẫn, chỉ giảng viên mới có thẩm quyền xác nhận. |
 | **Mức chọn & Điểm can thiệp** | Chưa chốt chính thức trong bảng Statement v0. | Chốt rõ **Rule (Bước 2) + AI Workflow (Bước 3)** và định vị chính xác điểm can thiệp. | Sau khi phân tích ma trận 6.1 và so sánh 4 mức ở 6.2, tách bạch rõ phần việc của Script/Regex và phần việc của LLM để tối ưu chi phí và độ tin cậy. |
 
@@ -398,17 +398,17 @@ Vì sao:
 
 | Rủi ro          | Câu hỏi                                                           | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 | --------------- | ----------------------------------------------------------------- | ----------------------------------------------------- | ------------------ |
-| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       | **Trung bình** | **Cơ sở tích cực:** Nỗi đau bỏ sót yêu cầu và mất 15–20 phút đọc chéo nhiều file đã được ghi nhận từ CP1/CP2 của 2 thành viên trong nhóm (#7 Nguyên, #11 Huy).<br>**Vì sao còn rủi ro TB:** Dữ liệu phỏng vấn ở CP4 hiện mới là *dữ liệu giả lập để minh họa*, và bản thân kết quả phân tích CP4 (P2) cũng chỉ ra rằng **một Checklist thủ công (No AI)** hoặc **Rule đơn giản** có thể đã giải quyết được phần lớn vấn đề mà chưa chắc học viên đã cần đến AI. |
+| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       | **Trung bình** | **Cơ sở tích cực:** Nỗi đau bỏ sót yêu cầu và mất 15–20 phút đọc chéo nhiều file đã được ghi nhận từ CP1/CP2 của 2 thành viên trong nhóm (#7 Nguyên, #11 Huy).<br>**Vì sao còn rủi ro TB:** Dữ liệu phỏng vấn thực tế ở CP4 gồm 3 học viên, chưa phải mẫu đại diện rộng; trường hợp P2 cũng chỉ ra rằng **một Checklist thủ công (No AI)** hoặc **Rule đơn giản** có thể đã giải quyết được phần lớn vấn đề mà chưa chắc học viên đã cần đến AI. |
 | **Usability**   | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Thấp – Trung bình** | Thiết kế đầu ra dạng bảng đối chiếu **Read-only** đặt câu trích dẫn bài làm cạnh tiêu chí Rubric kèm cờ `✅/❌/⚠️` rất trực quan với học viên công nghệ. Rủi ro còn lại là nếu học viên chạy kiểm tra quá sát giờ đóng nộp (23h58) thì dù máy tìm ra lỗi trong 20 giây, học viên cũng không còn đủ thời gian để viết bổ sung tử tế. |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không?                     | **Thấp (An toàn)** | Toàn bộ dữ liệu đầu vào (`README.md`, `CHECKPOINTS.md`, `RUBRIC.md`, `SUBMISSION.md` và file báo cáo `.md`) đều là văn bản Markdown có cấu trúc rõ ràng, nằm sẵn trong repo và không chứa dữ liệu mật nhạy cảm. Việc viết script Python/Regex (Bước 2) kết hợp gọi LLM API theo Prompt cố định (Bước 3) hoàn toàn nằm trong khả năng kỹ thuật của các thành viên lớp AI. |
 | **Viability**   | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành?     | **Thấp – Trung bình** | • **Quy định tổ chức (`RULES.md`):** Nhờ thiết kế **Boundary nghiêm ngặt (Read-only, không viết hộ, không chấm điểm thay)** nên giải pháp hoàn toàn tuân thủ quy chế học thuật của khóa đào tạo.<br>• **Chi phí & Vận hành:** Mỗi bài lab chỉ cần chạy kiểm tra 1–3 lần trước khi nộp (tốn ~vài nghìn token/lần, chi phí rất thấp). Tuy nhiên cần làm rõ ai là người cập nhật quy tắc nếu mỗi buổi lab có cấu trúc file khác nhau. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** **Not Yet** *(Chưa triển khai ngay phần AI Workflow; cần hoàn tất kiểm chứng thực tế thay cho dữ liệu giả lập CP4 và đo hiệu quả của đối chứng **No AI Checklist + Rule Script** trước khi quyết định nối thêm bước AI).*
+**Quyết định:** **Not Yet** *(Chưa triển khai ngay phần AI Workflow; cần mở rộng kiểm chứng từ kết quả phỏng vấn thực tế ở CP4 và đo hiệu quả của đối chứng **No AI Checklist + Rule Script** trước khi quyết định nối thêm bước AI).*
 
 **Lý do:**
-1. **Trung thực với mức độ bằng chứng hiện tại:** Dù bài toán #7 rất sát thực tế học tập và khả thi về kỹ thuật (Feasibility thấp), nhưng ở CP3 các con số baseline (`15–20 phút`, `4/12 bài sót`) mới dựa trên ước tính cá nhân, và ở CP4 các cuộc phỏng vấn hiện đang là **dữ liệu giả lập để minh họa**. Theo nguyên tắc Discovery & Problem Framing, không thể bấm nút **Go** xây dựng hệ thống AI dựa trên dữ liệu kiểm chứng giả lập.
+1. **Phân biệt pain đã ghi nhận với hiệu quả giải pháp chưa được đo:** Ba cuộc phỏng vấn thực tế ở CP4 đã ghi nhận việc hiểu thiếu yêu cầu, yêu cầu phân tán và thông tin chưa thống nhất. Tuy nhiên, các thời gian người dùng kể lại chưa thay thế cho phép đo bấm giờ, và nhóm chưa có thử nghiệm đối chứng để xác định phần AI mang lại lợi ích thêm bao nhiêu so với Checklist + Rule. Vì vậy, dữ liệu pain có thật chưa đủ để chốt Go cho phần AI Workflow.
 2. **Cần kiểm chứng giả thuyết "Checklist + Rule đã đủ chưa":** Ngay trong phân tích CP4 (trường hợp P2) và bảng 3.3, nhóm đã nhận thấy một **Master Checklist hợp nhất (No AI)** kết hợp với **Script kiểm tra ô trống/cấu trúc (Rule)** có thể đã ngăn chặn được phần lớn lỗi bỏ sót mục với chi phí bằng 0. Nhóm cần chứng minh bằng số liệu thật rằng học viên vẫn bị mất điểm ở phần *hiểu sai ngữ nghĩa Rubric* ngay cả khi đã có Checklist + Rule thì việc đưa **AI Workflow** vào mới thực sự tạo ra giá trị gia tăng (Value).
 
 **Nếu Go — pilot nhỏ nhất:**
@@ -417,8 +417,8 @@ Vì sao:
 2. Dùng 1 **Prompt chuẩn hóa (Workflow thủ công / Wizard-of-Oz)** nạp `RUBRIC.md` + `CHECKPOINTS.md` + file báo cáo vào công cụ sẵn có (như Google NotebookLM hoặc Claude/ChatGPT) để xuất bảng kiểm tra ngữ nghĩa `✅/❌/⚠️` trước khi `git push`.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
-Trước khi viết code cho phần AI Workflow, nhóm cần thực hiện 2 bước kiểm chứng thật (mất khoảng 30–45 phút ngoài giờ):
-1. **Kiểm chứng dữ liệu thật thay cho phỏng vấn giả lập:** Khảo sát nhanh 5–8 học viên thật trong lớp K5-L3A vừa nộp bài Lab Day 01 / Day 02 xem: *(a) Thực tế các bạn mất bao nhiêu phút để dò bài trước khi nộp? (b) Có bao nhiêu bạn thực sự bị quên mục / sai tên file / thiếu thành phần trong Rubric sau khi push?*
+Trước khi viết code cho phần AI Workflow, nhóm cần thực hiện 2 bước kiểm chứng bổ sung (mất khoảng 30–45 phút ngoài giờ):
+1. **Mở rộng khảo sát và đo baseline từ kết quả CP4:** Khảo sát nhanh 5–8 học viên thật trong lớp K5-L3A vừa nộp bài Lab Day 01 / Day 02 xem: *(a) Thực tế các bạn mất bao nhiêu phút để dò bài trước khi nộp? (b) Có bao nhiêu bạn thực sự bị quên mục / sai tên file / thiếu thành phần trong Rubric sau khi push?*
 2. **Thử nghiệm A/B nhỏ với giải pháp No AI + Rule:** Cung cấp cho nhóm một bản **Master Checklist 1 trang** + **Script Rule quét ô trống** ở đầu buổi lab tới. Nếu chỉ cần Checklist + Rule đã giúp giảm tỷ lệ sót bài về 0 và thời gian kiểm tra xuống dưới 5 phút, nhóm sẽ dừng lại ở mức **Rule** mà không cần tốn công làm AI Workflow. Chỉ khi học viên vẫn mắc các lỗi ngữ nghĩa tinh vi (như viết Metric thiếu số đo, viết lạc yêu cầu Rubric), nhóm mới bật sang **Go** cho bước AI Workflow.
 
 **Nếu No-Go — nên làm gì thay AI:**
@@ -435,10 +435,10 @@ Nếu sau khi kiểm chứng thực tế thấy học viên không cần AI ho�
 ## 9. Hạn chế và hướng tiếp theo
 
 - **Hạn chế hiện tại của báo cáo nhóm:**
-  1. **Về bằng chứng kiểm chứng (CP3 & CP4):** Số liệu baseline ban đầu (`15–20 phút`, `4/12 bài sót`) mới dựa trên ước lượng cá nhân của thành viên, chưa có log đo bấm giờ thực tế. Phần phỏng vấn ở Mục 3.2 hiện đang sử dụng **dữ liệu giả lập để minh họa** cấu trúc phân tích nên chưa thể dùng làm bằng chứng thực nghiệm để ra quyết định **Go** ngay lập tức.
+  1. **Về bằng chứng kiểm chứng (CP3 & CP4):** CP4 đã có 3 cuộc phỏng vấn thực tế, gồm cả tín hiệu xác nhận và phản bác. Mẫu còn nhỏ; thời gian phỏng vấn ghi lại là ước tính do người tham gia tự báo cáo, chưa có log đo bấm giờ hoặc thử nghiệm đối chứng để chốt hiệu quả của giải pháp. Các số tổng hợp ngoài 3 snapshot cần được đối chiếu với nguồn riêng trước khi khái quát.
   2. **Về sự đồng thuận trực tiếp:** Phần tổng hợp candidate ở CP3 và ghép nối quy trình CP5→CP6 có sự hỗ trợ cấu trúc từ AI; nhóm cần rà soát lại các câu hỏi phản biện trực tiếp giữa 4 thành viên (Hậu, Thịnh, Nguyên, Huy) để đảm bảo mọi con số được xác nhận đồng thuận.
 - **Hướng tiếp theo ngay sau buổi Lab:**
-  1. Thực hiện phỏng vấn ngắn 5 học viên thật trong lớp K5-L3A theo đúng câu hỏi Mom Test ở Mục 3.2 để thay thế toàn bộ dữ liệu giả lập bằng số liệu thực tế.
+  1. Phỏng vấn bổ sung 5 học viên trong lớp K5-L3A theo câu hỏi Mom Test ở Mục 3.2 để mở rộng mẫu từ 3 cuộc phỏng vấn thực tế đã có; bổ sung đo bấm giờ thao tác kiểm bài.
   2. Viết thử script Python kiểm tra cấu trúc file Markdown (Bước 2 - Rule) chạy thử ngay trên chính repo `K5-L3A-Day02-Nhom3mien-DiscoveryProblemFraming` để đo xem riêng tầng Rule đã bắt được bao nhiêu lỗi định dạng/bỏ trống mục.
   3. Kiểm nghiệm Prompt đối chiếu Rubric trên 4 báo cáo cá nhân của nhóm để đo tỷ lệ False Positive / False Negative thực tế so với 5 tiêu chí đánh giá đã đề ra ở Mục 7.
 
