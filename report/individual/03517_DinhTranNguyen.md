@@ -61,22 +61,26 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 **Quy trình nháp hiện tại (ASCII)**
 
 ```text
+
 [1. PM tạo user story]
-(? phút, chưa đo)
+(5 phút)
         ↓
 [2. Thành viên nhận và đọc task]
-(? phút, chưa đo)
+(2 phút)
         ↓
 [3. Phát hiện thiếu thông tin, hỏi PM]
-(? phút, chưa đo)
+(3 phút)
         ↓
 [4. PM kiểm tra và cập nhật task]
-(? phút, chưa đo)
+(7 phút)
         ⚠️ BOTTLENECK: BƯỚC 3–4
-        Tổng thời gian chờ ~10 phút
+        Tổng thời gian ~10 phút
         ↓
 [5. Thành viên đọc lại và tiếp tục]
-(? phút, chưa đo)
+(2 phút)
+
+TỔNG THỜI GIAN MINH HỌA: 19 phút
+
 ```
 
 
@@ -98,23 +102,26 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 **Quy trình nháp hiện tại (ASCII)**
 
 ```text
+
 [1. Đọc yêu cầu lab]
-(? phút, chưa đo)
+(? phút, chưa đo riêng)
         ↓
 [2. Tìm nội dung trong nhiều file slide]
-(~30 phút)
+(~30 phút — ước tính từ trải nghiệm)
         ⚠️ BOTTLENECK: TÌM KIẾM TÀI LIỆU
         ↓
 [3. Đọc lại kiến thức ML và syntax]
-(? phút riêng, chưa đo)
+(~35 phút)
         ↓
 [4. Áp dụng kiến thức vào bài lab]
-(? phút riêng, chưa đo)
+(~55 phút)
 
 Bước 3–4: ~90 phút cộng lại,
-thực tế có thể diễn ra đan xen.
+có thể diễn ra đan xen.
 
-Tổng thời gian quan sát: ~120 phút.
+TỔNG: ~120 phút
+(chưa tính riêng bước 1)
+
 ```
 
 
@@ -137,26 +144,25 @@ Tổng thời gian quan sát: ~120 phút.
 
 ```text
 [1. Hoàn thành bài lab]
-(? phút, ngoài thời gian kiểm tra)
+(Không tính vào thời gian kiểm tra)
         ↓
 [2. Đọc lại rubric và checkpoint]
-(? phút, chưa đo)
-        ⚠️ NGHI VẤN BOTTLENECK
+(~7 phút — giả định)
+        ⚠️ BOTTLENECK CHÍNH (GIẢ THUYẾT)
         ↓
 [3. Kiểm tra file, cấu trúc thư mục, tên file]
-(? phút, chưa đo)
+(~3 phút — giả định)
         ↓
 [4. Đối chiếu bài làm với từng yêu cầu]
-(? phút, chưa đo)
-        ⚠️ NGHI VẤN BOTTLENECK
+(~8 phút — giả định)
+        ⚠️ BOTTLENECK PHỤ (GIẢ THUYẾT)
         ↓
 [5. Nộp bài]
-(? phút, chưa đo)
+(Không tính vào thời gian kiểm tra)
 
 Tổng thời gian kiểm tra:
 Bước 2–4 khoảng 15–20 phút (ước tính).
 
-Chưa xác định bước mất thời gian nhiều nhất.
 ```
 
 
@@ -181,18 +187,19 @@ Chưa xác định bước mất thời gian nhiều nhất.
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
+
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Tôi trình bày vấn đề học viên hiểu thiếu hoặc bỏ sót yêu cầu khi nộp bài lab, phân tích workflow, bottleneck và impact. Khi các thành viên cho rằng chỉ cần checklist, tôi giải thích giả thuyết AI không đơn thuần là tạo checklist mà còn có thể tách rubric thành các yêu cầu và hỗ trợ tự động đối chiếu với bài làm. | Các thành viên đồng tình với vấn đề, bottleneck và impact, nhưng chưa thống nhất về sự cần thiết của AI. Buổi thảo luận giúp làm rõ sự khác biệt giữa checklist thủ công và giả thuyết tự động hóa việc đối chiếu yêu cầu. |
+| Phản biện bài của bạn khác | Tôi đặt câu hỏi cho Hậu về sự cần thiết của AI trong bài toán so sánh sự khác biệt giữa hai hợp đồng, vì tác vụ này có thể thực hiện bằng script. Tôi cũng nhận xét cách diễn đạt vấn đề của Thịnh có dấu hiệu solution-first, tức là định hướng giải pháp trước khi làm rõ vấn đề. | Góp phần thúc đẩy nhóm xem xét các phương án không dùng AI và phân biệt rõ vấn đề thực tế với giải pháp được đề xuất. |
+| Nhận phản biện | Các thành viên đặt vấn đề liệu AI có cần thiết khi checklist đã có thể hỗ trợ kiểm tra bài nộp. Tôi giải thích rằng điểm cần nghiên cứu thêm là việc kiểm tra thủ công lặp lại và đối chiếu từng yêu cầu trong rubric với bài làm, không chỉ đánh dấu checklist. | Tôi làm rõ hơn bottleneck và phạm vi giả thuyết AI. Tuy nhiên, chưa kết luận AI tốt hơn checklist; cần kiểm chứng và so sánh trước khi lựa chọn giải pháp. |
+| Gom cluster / cây OST | Tôi tham gia thảo luận, phân nhóm các candidate theo điểm chung về nhu cầu và bottleneck, thay vì dựa trên giải pháp công nghệ. Các vấn đề được chia thành 4 cluster: kiểm soát yêu cầu và thay đổi, tiếp cận thông tin đúng lúc, tái sử dụng kiến thức và dọn ảnh. Khi xây dựng OST, tôi hỗ trợ các thành viên xác định Outcome chung, tập trung vào việc giảm thời gian xử lý thông tin trước khi hành động mà không làm tăng nguy cơ bỏ sót thông tin hoặc mất dữ liệu quan trọng. | Nhóm có cơ sở tổ chức các vấn đề thành những opportunity rõ ràng và xác định hướng đánh giá candidate. Outcome chung giúp các thành viên tập trung vào kết quả cần đạt thay vì lựa chọn giải pháp AI ngay từ đầu. |
+| Chọn candidate problem | Tôi tham gia so sánh 3 candidate trong shortlist: #7 kiểm tra bài nộp theo rubric, #1 kiểm soát thay đổi tài liệu bên thứ ba và #2 dọn ảnh. Tôi ưu tiên #7 vì có trải nghiệm thực tế về hậu quả bỏ sót yêu cầu, quy trình tương đối rõ, tài liệu đầu vào dễ tiếp cận và có thể thử nghiệm trong phạm vi một bài lab. | Candidate #7 được đề xuất đứng đầu shortlist với 30/35 điểm, so với #2 đạt 28/35 và #1 đạt 26/35. Đây là kết quả chấm điểm đề xuất, chưa phải xác nhận nhóm đã thống nhất lựa chọn cuối cùng. |
+| Kiểm chứng / research | Tôi phụ trách chính CP4 vì candidate được đề xuất xuất phát từ vấn đề tôi đã trực tiếp gặp phải. Tôi xây dựng Assumption Map, lựa chọn giả định ưu tiên kiểm chứng, soạn bộ câu hỏi phỏng vấn, ghi lại kết quả và nghiên cứu các giải pháp hiện có như GitHub Task Lists, NotebookLM và GitHub Actions. | Giúp nhóm có cơ sở xem xét nguyên nhân dẫn đến bỏ sót yêu cầu khi nộp bài, nhận diện các tín hiệu ủng hộ và phản bác giả định. Phần research giúp nhóm thấy được những hướng xử lý khác nhau, từ checklist thủ công, kiểm tra bằng rule đến AI hỗ trợ, thay vì mặc định phải xây dựng AI Agent. |
+| Quy trình nhóm | Tôi đề xuất tiếp cận từ những vấn đề thực tế bản thân đã gặp phải, sau đó phân tích quy trình hiện tại để xác định bottleneck. Tôi chọn thời gian xử lý làm một chỉ số đo lường và phân biệt quy trình hiện tại (As-Is) với quy trình cải tiến dự kiến (To-Be), trong đó mục tiêu là giảm thời gian thực hiện các bước thủ công, lặp lại. | Giúp nhóm có cách tiếp cận dựa trên vấn đề thực tế, xác định được vị trí cần cải thiện trong workflow và có cơ sở so sánh hiệu quả giữa quy trình cũ và quy trình mới. Việc giảm thời gian vẫn là mục tiêu cần kiểm chứng, chưa phải kết quả đã đạt được. |
+| Problem Statement | Tôi là người đầu tiên xác định actor, pain, impact và phạm vi ban đầu của vấn đề kiểm tra bài lab theo rubric/checkpoint, dựa trên trải nghiệm thực tế của bản thân. Sau đó, tôi cùng các thành viên thảo luận, xem xét lại cách diễn đạt và thu hẹp phạm vi vấn đề. | Giúp nhóm có Problem Statement ban đầu với các thành phần rõ ràng để cùng phản biện và chỉnh sửa. Quá trình thảo luận giúp cách diễn đạt tập trung hơn vào vấn đề cần giải quyết và giới hạn phạm vi phù hợp với bài lab. |
+| Mức can thiệp AI | Tôi đề xuất mức can thiệp LLM Feature cho bài toán kiểm tra bài lab theo rubric. Khi nhóm phản biện rằng chỉ cần script kiểm tra file kết hợp checklist thủ công, tôi đồng ý script có thể kiểm tra tên file, định dạng và cấu trúc thư mục. Tuy nhiên, tôi lập luận rằng checklist thủ công vẫn yêu cầu người học đọc lại nhiều file Markdown, tự trích xuất các checkpoint và đối chiếu với bài làm, gây tốn thời gian. Vì vậy, tôi bảo vệ giả thuyết sử dụng LLM để hỗ trợ trích xuất, tổng hợp và đối chiếu các yêu cầu. | Giúp nhóm phân biệt những tác vụ có thể xử lý bằng rule/script với những tác vụ cần hiểu nội dung tài liệu. Cuộc thảo luận làm rõ phạm vi đề xuất LLM Feature, đồng thời đặt ra yêu cầu so sánh hiệu quả với checklist và script trước khi kết luận AI là cần thiết. |
+| Quyết định |Cùng các thành viên trao đổi để đưa ra hướng giải quyết chung. |Báo cáo nhóm chốt Not Yet cho phần AI Workflow, cần tiếp tục kiểm chứng hiệu quả so với Checklist + Rule. |
 
 ---
 
@@ -214,25 +221,51 @@ Chưa xác định bước mất thời gian nhiều nhất.
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Từ phần trình bày của Hậu về so sánh hợp đồng, tôi nhận ra cần cân nhắc giải pháp đơn giản như script trước khi đề xuất AI.
+Từ phần trình bày của Thịnh, tôi nhận ra việc dùng các từ mô tả chức năng giải pháp có thể khiến người trình bày đi theo hướng solution-first.
+Từ phần trình bày của cả nhóm, tôi thấy rằng 1 problem tốt không có nghĩa là vấn đề đến từ 1 tập đoàn nào đó mà nó có thể đến từ trải nghiệm không thoải mái từ chính bản thân bạn
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
 Nhóm có gặp trường hợp bị "solution-first", điều này khá dễ nhận ra khi trong cách bạn trình bày bạn luôn đề cập đến các từ khóa như "đọc", "viết", "hỗ trợ' trong khi cái đang trình bày là vấn đề và nỗi đau của người dùng. 
 Tôi đã nhận ra và chỉ ra những từ khóa đó cho bạn và cả nhóm cùng điều hướng bạn quay lại đi từ vấn đề bạn nhận thấy, quy trình xuất hiện vấn đề thực sự là nghẽn ở điểm nào, xác định xem đây là diễn ra 1 lần hay là việc lặp lại thường xuyên.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Ban đầu tôi đề xuất LLM Feature cho bài toán kiểm tra bài nộp theo rubric.
+Nhóm phản biện rằng script kiểm tra file kết hợp checklist thủ công có thể giải quyết vấn đề.
+Tôi đồng ý script phù hợp để kiểm tra tên file, định dạng và cấu trúc thư mục.
+Tuy nhiên, tôi vẫn cho rằng việc đọc nhiều tài liệu Markdown, trích xuất checkpoint và đối chiếu yêu cầu với bài làm là phần cần nghiên cứu thêm khả năng hỗ trợ của LLM
+Tôi đã thay đổi quan điểm từ việc dùng hoàn toàn LLM feature sang hybrid gữa not AI và LLM feature
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 Tuy chỉ có phỏng vấn sâu 2 cá nhân nhưng kết quả phỏng vấn thực sự chứng minh vấn đề tôi gặp phải là điều mọi người cũng đang gặp. Nhưng đó chỉ là giả định của tôi và mọi người khi mới tiếp nhận Chương Trình nên thời gian làm quen chưa đủ để thích nghi ngay
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Viết Problem Statement khó không chỉ ở cách diễn đạt, mà còn ở việc xác định đúng nguyên nhân và phạm vi của vấn đề trước khi đề xuất giải pháp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Các hướng bạn có thể tự chọn dựa trên điều mình thực sự muốn thay đổi:
+Đo thời gian từng bước trong quy trình thay vì chỉ ước tính tổng thời gian kiểm tra.
+Phỏng vấn thêm học viên để xem khó khăn có phổ biến hay chủ yếu xảy ra khi mới tham gia chương trình.
+So sánh checklist, script và LLM trên cùng một bộ tài liệu và bài làm.
+Phản biện mạnh hơn khi nhóm cho rằng một giải pháp đơn giản đã đủ, bằng cách yêu cầu xác định rõ giải pháp đó xử lý được bước nào và chưa xử lý được bước nào.
+Tránh bảo vệ LLM chỉ vì đó là giả thuyết ban đầu của bản thân.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
----
+Nhóm tôi chọn vấn đề sinh viên dễ hiểu thiếu hoặc bỏ sót yêu cầu khi nộp bài lab do thông tin nằm ở nhiều tài liệu như README, RUBRIC và CHECKPOINTS. Quy trình hiện tại yêu cầu sinh viên tự đọc, tổng hợp và đối chiếu các yêu cầu với bài làm trước khi nộp. Nhóm chọn thời gian kiểm tra và số yêu cầu bắt buộc bị bỏ sót làm metric đánh giá. Boundary là chỉ hỗ trợ kiểm tra, không tự sửa bài hay quyết định kết quả. Nhóm cân nhắc checklist thủ công, script kiểm tra file và LLM Feature để hỗ trợ xử lý yêu cầu mang tính ngữ nghĩa. Tuy nhiên, nhóm chưa có đủ bằng chứng chứng minh AI mang lại hiệu quả vượt trội so với các phương án đơn giản. Vì vậy, nhóm quyết định Not Yet, ưu tiên kiểm chứng và đánh giá các giải pháp không dùng AI trước khi xem xét triển khai AI.
+
 
 ## 7. Tài liệu tham khảo
 
--
+1. GitHub Docs. **Basic writing and formatting syntax** — Cú pháp Markdown và checklist.
+   https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+2. GitHub Docs. **Understanding GitHub Actions** — Tự động hóa quy trình kiểm tra bằng workflow và script.
+   https://docs.github.com/en/actions/get-started/understand-github-actions
+
+3. Google. **NotebookLM** — Công cụ AI hỗ trợ tổng hợp, tìm kiếm và trả lời câu hỏi dựa trên tài liệu nguồn.
+   https://notebooklm.google.com/
+
+4. Google. **How Google developed and tested NotebookLM** — Giới thiệu cách NotebookLM hỗ trợ nghiên cứu và tổng hợp thông tin từ tài liệu.
+   https://blog.google/innovation-and-ai/products/developing-notebooklm/
+
