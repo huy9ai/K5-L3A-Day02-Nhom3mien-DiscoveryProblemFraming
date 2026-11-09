@@ -126,51 +126,107 @@ OUTCOME: Giảm thời gian xử lý thông tin mà không tăng bỏ sót/mất
 
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
-|---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+| Giả định cần kiểm chứng | Loại | Quan trọng (1–5) | Bằng chứng (1–5) |
+|---|---|---|---|
+| Nhiều học viên gặp khó khăn khi hiểu yêu cầu nằm trong nhiều file tài liệu lab. | Value | 3 | 2 |
+| Việc hiểu thiếu yêu cầu lab có thể dẫn đến bỏ sót nội dung bắt buộc khi nộp bài. | Value | 5 | 2 |
+| Học viên có thể xác định yêu cầu còn thiếu khi được chỉ rõ nội dung và nguồn tài liệu liên quan. | Usability | 4 | 1 |
+| Nhóm có thể truy cập đầy đủ tài liệu lab cần thiết để đối chiếu yêu cầu với bài làm. | Feasibility | 3 | 2 |
+| Quy trình kiểm tra yêu cầu có thể thực hiện trong thời gian chấp nhận được trước deadline. | Viability | 2 | 2 |
 
-Giả định nhóm kiểm chứng trong buổi này:
+
+
+Giả định nhóm kiểm chứng trong buổi này:  Việc hiểu thiếu yêu cầu lab có thể dẫn đến bỏ sót nội dung bắt buộc khi nộp bài.
+
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+**Cách đã dùng:** Phỏng vấn (dữ liệu giả lập để minh họa).
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+**Interview snapshot 1**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | P1 – Học viên tham gia Coding Lab |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Em tưởng chỉ cần code chạy được, đến lúc xem lại rubric mới biết còn phải ghi kết quả đánh giá vào báo cáo." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Trong một bài lab về Machine Learning, P1 hoàn thành code nhưng bỏ sót phần giải thích kết quả vì chưa hiểu đầy đủ yêu cầu trong rubric. P1 chỉ phát hiện sau khi đã nộp bài. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đọc lại README và rubric, tự lập checklist những phần cần hoàn thành trước khi nộp. |
+| Mất bao lâu, bao lần? | Ước tính 15–20 phút kiểm tra mỗi bài lab. Từng gặp 2 lần hiểu thiếu yêu cầu. |
+| Insight / opportunity rút ra | Học viên có thể hoàn thành phần kỹ thuật nhưng vẫn bỏ sót yêu cầu báo cáo. Cần giúp học viên đối chiếu từng yêu cầu với sản phẩm đầu ra. |
 
-Tổng hợp:
+**Interview snapshot 2**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P2 – Học viên tham gia Coding Lab |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Có nhiều file hướng dẫn nên đôi lúc em không biết phải ưu tiên kiểm tra file nào trước." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi thực hiện bài lab nhóm, P2 đọc README nhưng không chú ý một yêu cầu bổ sung trong CHECKPOINTS. Tuy nhiên, P2 phát hiện phần còn thiếu khi đối chiếu bài làm với checklist trước deadline và kịp bổ sung. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tổng hợp yêu cầu từ các file Markdown vào một checklist chung, đánh dấu từng mục đã hoàn thành. |
+| Mất bao lâu, bao lần? | Khoảng 10–15 phút tổng hợp và kiểm tra yêu cầu mỗi bài. Ghi nhận 1 lần hiểu thiếu nhưng sửa kịp trước khi nộp. |
+| Insight / opportunity rút ra | Hiểu thiếu yêu cầu không phải lúc nào cũng dẫn đến bỏ sót khi nộp. Checklist có thể là biện pháp phòng tránh hiệu quả mà không cần AI. |
+
+
+### 3.2. Kiểm chứng
+
+**Cách đã dùng:** Phỏng vấn (dữ liệu giả lập để minh họa).
+
+**Interview snapshot 1**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P1 – Học viên tham gia Coding Lab |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Em tưởng chỉ cần code chạy được, đến lúc xem lại rubric mới biết còn phải ghi kết quả đánh giá vào báo cáo." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Trong một bài lab về Machine Learning, P1 hoàn thành code nhưng bỏ sót phần giải thích kết quả vì chưa hiểu đầy đủ yêu cầu trong rubric. P1 chỉ phát hiện sau khi đã nộp bài. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đọc lại README và rubric, tự lập checklist những phần cần hoàn thành trước khi nộp. |
+| Mất bao lâu, bao lần? | Ước tính 15–20 phút kiểm tra mỗi bài lab. Từng gặp 2 lần hiểu thiếu yêu cầu. |
+| Insight / opportunity rút ra | Học viên có thể hoàn thành phần kỹ thuật nhưng vẫn bỏ sót yêu cầu báo cáo. Cần giúp học viên đối chiếu từng yêu cầu với sản phẩm đầu ra. |
+
+**Interview snapshot 2**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P2 – Học viên tham gia Coding Lab |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Có nhiều file hướng dẫn nên đôi lúc em không biết phải ưu tiên kiểm tra file nào trước." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi thực hiện bài lab nhóm, P2 đọc README nhưng không chú ý một yêu cầu bổ sung trong CHECKPOINTS. Tuy nhiên, P2 phát hiện phần còn thiếu khi đối chiếu bài làm với checklist trước deadline và kịp bổ sung. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tổng hợp yêu cầu từ các file Markdown vào một checklist chung, đánh dấu từng mục đã hoàn thành. |
+| Mất bao lâu, bao lần? | Khoảng 10–15 phút tổng hợp và kiểm tra yêu cầu mỗi bài. Ghi nhận 1 lần hiểu thiếu nhưng sửa kịp trước khi nộp. |
+| Insight / opportunity rút ra | Hiểu thiếu yêu cầu không phải lúc nào cũng dẫn đến bỏ sót khi nộp. Checklist có thể là biện pháp phòng tránh hiệu quả mà không cần AI. |
+
+### Interview snapshot 3
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P3 – Học viên tham gia Coding Lab |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Em đọc README thấy một cách đặt tên repo, nhưng trong file hướng dẫn nộp bài lại ghi khác nên không biết phải làm theo cái nào." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi chuẩn bị nộp bài lab, P3 nhận thấy quy định đặt tên repository trong README và SUBMISSION chưa thống nhất. P3 phải đọc lại các tài liệu và hỏi người hướng dẫn để xác định quy định cần áp dụng. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Đối chiếu các file hướng dẫn, hỏi người hướng dẫn hoặc trợ giảng khi phát hiện thông tin mâu thuẫn. |
+| Mất bao lâu, bao lần? | Khoảng 10–15 phút để kiểm tra và xác nhận lại. Ghi nhận 1 lần gặp tình huống này (giả lập). |
+| Insight / opportunity rút ra | Khó khăn không chỉ đến từ việc học viên hiểu thiếu yêu cầu mà còn từ thông tin chưa thống nhất giữa các tài liệu. Cần giúp học viên phát hiện những yêu cầu mâu thuẫn và xác định nguồn cần được xác nhận, thay vì tự lựa chọn một quy định. |
+
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn học viên Coding Lab (giả lập) | 3 | P1 bỏ sót nội dung do hiểu thiếu rubric. P2 gặp khó khăn vì yêu cầu nằm ở nhiều file. P3 gặp thông tin chưa thống nhất giữa các tài liệu hướng dẫn. | P2 phát hiện và sửa kịp nhờ checklist. P3 chưa xác nhận việc mâu thuẫn tài liệu dẫn đến bỏ sót nội dung khi nộp. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+Từ các tình huống giả lập, nhóm đề xuất mở rộng nguyên nhân của vấn đề: học viên không chỉ có nguy cơ bỏ sót yêu cầu do hiểu thiếu, mà còn gặp khó khăn khi yêu cầu phân tán hoặc chưa thống nhất giữa nhiều tài liệu.
+
+**Problem được đề xuất điều chỉnh:**
+
+"Học viên Coding Lab cần đọc và đối chiếu yêu cầu từ nhiều tài liệu như README, CHECKPOINTS, RUBRIC và SUBMISSION. Khi các yêu cầu nằm rải rác, khó hiểu hoặc chưa thống nhất, học viên có thể mất thêm thời gian xác minh, hiểu sai hoặc bỏ sót nội dung bắt buộc khi nộp bài."
+
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| GitHub Markdown Task Lists (No AI) | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists | Tổng hợp yêu cầu từ README, CHECKPOINTS, RUBRIC thành checklist; đánh dấu hoàn thành trước khi nộp. | Đơn giản, miễn phí, dễ áp dụng ngay trong GitHub; giúp học viên theo dõi yêu cầu còn thiếu. | Checklist phải được tạo và cập nhật thủ công; đánh dấu hoàn thành không chứng minh học viên đã hiểu hoặc thực hiện đúng yêu cầu. | Cần có danh sách yêu cầu rõ ràng và cơ chế đối chiếu từng yêu cầu với bằng chứng hoàn thành. Nên thử checklist thủ công làm baseline trước khi áp dụng AI. |
+| Google NotebookLM (AI hỗ trợ tra cứu tài liệu) | https://support.google.com/gemininotebook/answer/16215270 | Đọc, tổng hợp và giải thích yêu cầu từ nhiều tài liệu; hỗ trợ học viên tìm lại nguồn yêu cầu khi chưa hiểu rõ. | Hỗ trợ tài liệu Markdown, PDF và nhiều định dạng khác; trả lời dựa trên nguồn được cung cấp, có trích dẫn để người học kiểm tra. | Phụ thuộc vào độ đầy đủ và phiên bản của tài liệu đã tải lên; câu trả lời AI vẫn cần đối chiếu với nguồn gốc; không tự xác minh toàn bộ bài làm đã đáp ứng rubric. | Nếu sử dụng AI, mỗi yêu cầu được trích xuất cần kèm nguồn tham chiếu. AI chỉ hỗ trợ giải thích và đối chiếu, không tự kết luận bài nộp đạt yêu cầu. |
+| GitHub Actions (Rule-based Automation) | https://docs.github.com/en/actions/concepts/workflows-and-actions/workflows | Kiểm tra tự động một số điều kiện trước hoặc sau khi đẩy bài lên repository, ví dụ: file bắt buộc, cấu trúc thư mục, test code. | Có thể chạy script kiểm tra tự động theo sự kiện GitHub; kết quả kiểm tra nhất quán với các quy tắc đã định nghĩa. | Cần viết và duy trì quy tắc; khó đánh giá yêu cầu mang tính ngữ nghĩa như chất lượng giải thích, phân tích hoặc mức độ hiểu rubric. | Tách yêu cầu thành hai nhóm: yêu cầu có thể kiểm tra bằng rule và yêu cầu cần con người/AI hỗ trợ đánh giá. Không nên dùng AI cho các kiểm tra đơn giản có thể viết script. |
 
----
 
 ## 4. Quy trình trước/sau (CP5)
 
