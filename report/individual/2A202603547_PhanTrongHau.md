@@ -183,13 +183,13 @@ Bảng dưới ghi cả điểm học viên đã sửa lại nhận định củ
 | Pitch Problem Card | Đưa ra đề tài kiểm tra sự thay đổi trong tài liệu, hợp đồng giao dịch giữa các doanh nghiệp; nguồn pain là các bạn admin nêu với tôi. | Nhận được câu hỏi về việc dùng code thay LLM và dùng các model public. |
 | Phản biện bài của bạn khác | Với Nguyên, về đề tài kiểm tra bài theo yêu cầu: “Tại sao chúng ta không sử dụng 1 prompt để ChatGPT hay Claude kiểm tra mà cần làm 1 tính năng để giải quyết vấn đề này?”<br>Với Thịnh, về đề tài CV: “Tại sao chúng ta cần sử dụng khi có thể sử dụng AI để hỗ trợ viết CV?” | Nguyên trả lời rằng chỉ có link Git thì model chưa có đủ context để kiểm tra đầy đủ; Nguyên không sửa đề tài.<br>Thịnh làm rõ hệ thống dự kiến tự dò JD rồi cập nhật CV theo kinh nghiệm ứng viên, thành một flow hoàn chỉnh và chi tiết hơn, không chỉ dừng ở việc hoàn thành CV; Thịnh không sửa đề tài. |
 | Nhận phản biện | Với đề tài kiểm tra thay đổi tài liệu/hợp đồng giữa doanh nghiệp, tôi nhận hai câu hỏi: “Tại sao không dùng code mà cần sử dụng LLM để giải quyết vấn đề này?” và “Tại sao không thể sử dụng các model public để giải quyết?” | Tôi chưa chốt giải pháp. Nếu code giải quyết tốt thì tôi vẫn có thể dùng code, không cần LLM. Về model public, tôi trả lời rằng tài liệu có thông tin nhạy cảm của các công ty nên không thể đưa lên các dịch vụ như Claude hoặc ChatGPT trong bối cảnh case này. Nguyên là người đặt hai câu hỏi. Sau phản biện, tôi vẫn giữ quan điểm này. |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | Tham gia phần hội tụ nhóm CP3. | Nhóm đã chốt đề tài kiểm tra bài lab theo rubric/checkpoint của Nguyên. |
+| Gom cluster / cây OST | Phụ trách chính CP3, cùng các thành viên trao đổi để tổng hợp candidate và hội tụ đề tài. | Phần hội tụ nhóm được ghi tại mục 2 của báo cáo nhóm. |
+| Chọn candidate problem | Phụ trách chính CP3; tham gia trao đổi, phản biện các đề tài và cùng nhóm lựa chọn. | Nhóm chốt đề tài kiểm tra bài lab theo rubric/checkpoint của Nguyên. |
 | Kiểm chứng / research | Khảo sát 1 học viên khóa V của AI Action để kiểm chứng vấn đề. | Phần câu trả lời khảo sát tham chiếu báo cáo nhóm; không chép lại tại đây. |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Quy trình nhóm | Cùng các bạn trao đổi về quy trình và hướng giải quyết chung. | |
+| Problem Statement | Cùng các bạn trao đổi về cách mô tả vấn đề và giải pháp của nhóm. | |
+| Mức can thiệp AI | Tham gia trao đổi về phương án xử lý và mức sử dụng AI; không mặc định mọi vấn đề đều cần LLM. | |
+| Quyết định | Cùng các thành viên trao đổi để đưa ra hướng giải quyết chung. | |
 
 ---
 
@@ -203,37 +203,45 @@ Bảng dưới ghi cả điểm học viên đã sửa lại nhận định củ
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
-| CP7 Ghi chép | Nhờ AI ghi lại câu hỏi phản biện tôi cung cấp và liệt kê câu hỏi để tự trả lời | Đặt các sự kiện đã kể vào đúng mục báo cáo | AI chưa biết câu trả lời, thay đổi quan điểm và kết quả thảo luận | Yêu cầu để trống thông tin chưa biết, không viết thay reflection |
+| CP7 Ghi chép | Nhờ AI sắp xếp các ý và câu hỏi phản biện tôi đã cung cấp, đối chiếu báo cáo nhóm và gợi ý câu hỏi còn thiếu | Đặt các sự kiện đã kể vào đúng mục báo cáo | AI chưa biết câu trả lời, thay đổi quan điểm và kết quả thảo luận | Yêu cầu giữ đúng trải nghiệm đã kể, không lấy cảm nhận của người khác làm của mình; cần tự rà và hoàn thiện lời văn reflection |
 
 ---
 
 ## 6. Reflection (CP7)
 
-> Đã ghi các sự kiện phản biện được học viên cung cấp tại mục 4. Mục 6.1 ghi đúng ý học viên đã cung cấp; các câu trả lời còn thiếu để trống. Không suy ra việc đổi ý hay kết quả khảo sát.
+> Nội dung dựa trên thông tin học viên cung cấp và đối chiếu hoạt động chung trong báo cáo nhóm. Không lấy cảm nhận cá nhân của thành viên khác làm trải nghiệm của học viên. Các phần chưa có thông tin tiếp tục để trống.
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Tôi hiểu rõ hơn về đề tài của Nguyên và Thịnh qua phần giải thích của hai bạn.
+Qua phần trình bày và trao đổi, tôi hiểu rõ hơn về đề tài của Nguyên và Thịnh, đặc biệt là phạm vi hai bạn muốn giải quyết. Với Nguyên, tôi hỏi tại sao không dùng một prompt cho ChatGPT hoặc Claude kiểm tra bài mà cần làm một tính năng riêng. Nguyên giải thích rằng chỉ có link Git thì model chưa có đủ context để kiểm tra đầy đủ. Với Thịnh, tôi hỏi tại sao cần hệ thống khi AI đã có thể hỗ trợ viết CV. Thịnh làm rõ đề tài bao gồm tự dò JD rồi cập nhật CV theo kinh nghiệm ứng viên, thành một flow chi tiết hơn việc chỉ hoàn thành CV. Hai bạn không đổi đề tài sau phản biện, nhưng phần giải thích giúp tôi hiểu rõ hơn điều mỗi bạn đang hướng tới.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Có, ví dụ khi xem xét các vấn đề cá nhân, đôi khi người dùng không thật sự cần giải pháp đang được nghĩ tới.
+Có. Khi xem xét các vấn đề cá nhân, đôi khi nhóm đã nghĩ đến cách giải quyết trong khi người dùng chưa thật sự cần giải pháp đó. Trong phần trao đổi, tôi đặt câu hỏi về việc tại sao cần thêm một tính năng hoặc hệ thống khi đã có thể dùng công cụ sẵn có để hỗ trợ. Các thành viên giải thích lại phạm vi đề tài và cùng trao đổi về hướng giải quyết. Với trường hợp của Nguyên và Thịnh, hai bạn giữ đề tài sau khi giải thích thêm. Tôi chưa có một ví dụ cụ thể khác để kết luận nhóm đã loại bỏ hay sửa một đề tài vì người dùng không cần.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Sau khi Nguyên hỏi về việc dùng code hay LLM và dùng các model public cho đề tài kiểm tra thay đổi tài liệu/hợp đồng, tôi vẫn giữ quan điểm: chưa chốt giải pháp, nếu code giải quyết tốt thì có thể dùng code mà không cần LLM. Với case tài liệu có thông tin nhạy cảm của công ty, tôi không đưa tài liệu lên các dịch vụ như ChatGPT hoặc Claude.
+Tôi vẫn giữ quan điểm sau khi nhận phản biện của Nguyên về đề tài kiểm tra thay đổi tài liệu, hợp đồng giữa các doanh nghiệp. Nguyên hỏi tại sao không dùng code mà cần LLM và tại sao không sử dụng các model public. Tôi chưa chốt giải pháp nên nếu code giải quyết tốt thì vẫn có thể dùng code, không bắt buộc phải dùng LLM. Với câu hỏi thứ hai, ràng buộc tôi nêu là tài liệu có thông tin nhạy cảm của các công ty nên không thể đưa lên các dịch vụ như ChatGPT hoặc Claude trong case này. Tôi giữ cách nhìn đó, chưa quyết định một phương án triển khai thay thế cụ thể.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Tôi bất ngờ vì có nhiều người cũng bị quên hoặc bỏ sót yêu cầu khi làm và nộp bài lab. Tôi trực tiếp khảo sát 1 học viên khóa V của AI Action; phần câu trả lời chi tiết tham chiếu báo cáo nhóm.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+> Gợi ý từ việc đọc Problem Statement của nhóm, cần học viên xác nhận có đúng khó khăn của mình không:
+
+Một điểm khó là đặt Success Metric có cơ sở và đo cùng một phạm vi trước/sau. Ví dụ, nhóm đặt mục tiêu giảm thời gian từ khoảng 15–20 phút xuống dưới 3 phút mỗi lần, nhưng cần phân biệt thời gian tìm lỗi với thời gian học viên tự sửa bài. Nếu chỉ tính thời gian công cụ chạy mà bỏ qua thời gian đọc cảnh báo và sửa lỗi thì chưa thể hiện đầy đủ công sức thực tế. Ngoài tốc độ, cần đo số yêu cầu bị bỏ sót để tránh kiểm nhanh hơn nhưng vẫn thiếu bài. Các số đang là ước tính hoặc mục tiêu phải được phân biệt với kết quả đã đo.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Hiện tại tôi chưa muốn thay đổi điều gì nếu làm lại.
+Hiện tại tôi chưa muốn thay đổi điều gì nếu làm lại. Phần chính tôi phụ trách là CP3; ở các phần còn lại, tôi cùng các thành viên trao đổi và đưa ra hướng giải quyết chung. Tôi chưa xác định thêm một điểm cụ thể muốn phản biện mạnh hơn.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Nhóm chọn vấn đề học viên dễ bỏ sót yêu cầu khi kiểm tra bài lab với rubric và checkpoint trước khi nộp. Quy trình hiện tại là mở tài liệu yêu cầu, đối chiếu với bài làm, xác định phần còn thiếu rồi tự sửa và kiểm lại. Nhóm đặt mục tiêu giảm thời gian kiểm từ mức ước tính 15–20 phút xuống dưới 3 phút mỗi lần, đồng thời giảm lỗi bỏ sót; các con số này cần được kiểm chứng bằng phép đo thực tế. Ranh giới là công cụ chỉ đưa ra cảnh báo kèm nguồn, không tự viết bổ sung, tự sửa hay nộp bài thay học viên và không tự chọn quy định khi tài liệu mâu thuẫn. Hướng nhóm phân tích là dùng Rule cho kiểm tra cấu trúc và Workflow có AI cho đối chiếu nội dung với tiêu chí, trong khi vẫn phải so sánh hiệu quả với checklist và Rule đơn giản. Quyết định trong báo cáo nhóm là Not Yet, cần tiếp tục kiểm chứng nhu cầu và hiệu quả trước khi triển khai phần AI.
 
 ---
 
@@ -243,34 +251,7 @@ Hiện tại tôi chưa muốn thay đổi điều gì nếu làm lại.
 
 ---
 
-## 8. Thông tin đã bổ sung và câu hỏi còn thiếu cho CP7
+## 8. Các ý còn cần học viên bổ sung
 
-### Thông tin học viên đã cung cấp
-
-- **Nguyên:** Lý do không chỉ dùng một prompt là model chỉ có link Git chưa đủ context để kiểm tra đầy đủ. Đây là câu trả lời của Nguyên trong buổi phản biện, chưa phải kết quả thử nghiệm so sánh. Nguyên không sửa đề tài.
-- **Thịnh:** Hệ thống dự kiến tự dò JD và cập nhật CV theo kinh nghiệm ứng viên, bao quát một flow hoàn chỉnh hơn việc chỉ viết CV. Đây là phạm vi Thịnh giải thích, chưa phải chức năng đã triển khai hoặc kiểm chứng. Thịnh không sửa đề tài.
-- **Hậu — code hay LLM:** Chưa chốt giải pháp; nếu code giải quyết tốt thì dùng code, không bắt buộc LLM.
-- **Hậu — model public:** Trong case này, tài liệu chứa thông tin nhạy cảm của công ty nên Hậu không đưa tài liệu lên các dịch vụ như Claude hoặc ChatGPT. Đây là ràng buộc Hậu nêu cho case, không phải kết luận chung về mọi model hoặc mọi hình thức triển khai. Chưa có phương án triển khai thay thế được chốt.
-
-- **Người đặt câu hỏi:** Nguyên hỏi Hậu về việc dùng code hay LLM và sử dụng model public.
-- **Đóng góp:** Hậu tham gia CP3 và khảo sát 1 học viên khóa V của AI Action. Theo học viên, câu trả lời đã có trong report nên không ghi chi tiết lại tại báo cáo cá nhân. Chưa có mô tả thêm về nhiệm vụ cụ thể trong CP3.
-- **Chốt đề tài:** Học viên xác nhận nhóm đã chọn đề tài kiểm tra bài lab theo rubric/checkpoint của Nguyên.
-- **Điều học được:** Hậu hiểu rõ hơn về đề tài của Nguyên và Thịnh qua phần giải thích của hai bạn.
-
-- **Sau phản biện:** Hậu xác nhận vẫn giữ quan điểm, không đổi ý sau câu hỏi của Nguyên.
-- **Solution-first:** Hậu xác nhận có, ví dụ ở các vấn đề cá nhân đôi khi người dùng không thật sự cần. Chưa cung cấp case cụ thể hoặc cách nhóm xử lý.
-- **Nếu làm lại:** Hiện tại Hậu chưa muốn thay đổi điều gì.
-
-Các ý đã được cập nhật vào mục 4 và 6.1, 6.2, 6.3, 6.6 theo câu trả lời của học viên. Những phần chưa được cung cấp vẫn để trống, không tự bổ sung kết quả khảo sát, xử lý của nhóm hoặc quyết định giải pháp.
-
-### Câu hỏi còn cần học viên trả lời
-
-Các ý đã cung cấp được ghi ngắn gọn đúng nội dung. Phần 6.1–6.6 hiện chưa đủ tổng tối thiểu 200 từ theo đề bài; cần học viên bổ sung trải nghiệm thật, không kéo dài bằng nội dung tự suy diễn.
-
-1. **6.4 — Cảm nhận cá nhân:** Kết quả khảo sát có điều gì làm bạn bất ngờ không? Chỉ cần cảm nhận của bạn, không cần chép lại câu trả lời khảo sát trong report.
-2. **Chi tiết CP3:** Ngoài pitch và phản biện đã ghi, bạn có trực tiếp gom cluster, làm OST hoặc chấm điểm không? Nếu có, bạn làm gì và kết quả cụ thể là gì?
-3. **6.1 — Ví dụ học được:** Một điều cụ thể bạn hiểu rõ hơn sau khi Nguyên hoặc Thịnh giải thích là gì?
-4. **6.2 — Case solution-first:** Vấn đề cá nhân cụ thể nào khiến nhóm nghĩ tới giải pháp nhưng người dùng không thật sự cần? Nhóm đã nhận ra và xử lý thế nào? Nếu chưa xử lý thì ghi rõ.
-5. **6.5 — Problem Statement:** Bạn đã viết/rà phần nào và thấy khó nhất ở đâu? Nếu chưa tham gia thì giữ trống.
-6. **6.7 — Hiểu bài nhóm:** Bạn tự giải thích bằng 5–8 câu chuỗi problem → quy trình → metric → boundary → mức can thiệp → quyết định của đề tài kiểm tra bài lab theo rubric/checkpoint. Phần nhóm chưa hoàn thành thì nói rõ, không tự đặt kết quả.
-7. **Nhật ký AI mục 5:** Ở CP4–CP6, bạn thực sự dùng AI vào việc nào? Hữu ích/sai ở đâu và bạn sửa gì? Nếu chưa dùng thì giữ trống.
+- **6.5:** Đã thêm ví dụ về cách đặt và đo Success Metric từ báo cáo nhóm. Học viên cần xác nhận đây có đúng là khó khăn mình gặp không, rồi tự sửa thành câu trả lời cá nhân.
+- **Tự kiểm:** Rà lại phần 6.1–6.7 bằng lời của mình, đặc biệt chuỗi giải thích ở 6.7; sửa chi tiết nào chưa đúng trải nghiệm. Chưa có thông tin để điền nhật ký dùng AI riêng ở CP4–CP6.

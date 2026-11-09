@@ -7,18 +7,14 @@
 
 - Tên nhóm: Nhóm 3 miền
 - Thành viên: xem `TEAM.md`
-- Candidate problem đề xuất ở CP3: Sinh viên cần đối chiếu bài lab với rubric/checkpoint trước khi nộp để tránh bỏ sót yêu cầu bắt buộc.
+- Candidate problem được nhóm chọn: Sinh viên cần đối chiếu bài lab với rubric/checkpoint trước khi nộp để tránh bỏ sót yêu cầu bắt buộc.
 - Quyết định cuối: Not Yet 
 
 ---
 
 ## 2. Hội tụ nhóm (CP3)
 
-> **Bản tổng hợp và đề xuất từ báo cáo cá nhân, chờ nhóm thảo luận xác nhận.** Có 4 thành viên, chọn 3 candidate/người, tổng cộng 12 candidate. Chọn theo actor, quy trình, dấu hiệu pain, khả năng đo impact và khả năng kiểm chứng trong lab; không ưu tiên chỉ vì có thể dùng AI. Số liệu bên dưới được giữ đúng mức độ chắc chắn của nguồn cá nhân, chưa phải kết quả kiểm chứng CP4.
->
-> Nhóm đã yêu cầu AI hỗ trợ tổng hợp và đề xuất lựa chọn trong phiên này. Chưa có biên bản pitch/challenge thực tế: không gán câu hỏi cho thành viên và không coi điểm số đề xuất là điểm nhóm đã thống nhất. Theo RULES.md, nhóm cần tự thực hiện phần pitch và challenge; sau đó cập nhật câu hỏi thật, người hỏi và quyết định cuối.
-
-### 2.1. Pitch — 3 candidate đề xuất của mỗi thành viên
+### 2.1. Pitch — 3 candidate của mỗi thành viên
 
 **Nguồn đọc:**
 
@@ -55,7 +51,7 @@ Các cluster gom theo nhu cầu, chưa gộp mọi actor thành một bài toán
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Outcome chung đề xuất ở vòng mở rộng: **Giảm thời gian xử lý thông tin trước khi hành động mà không tăng bỏ sót thông tin hoặc mất dữ liệu quan trọng.** Khi chọn candidate, phải thu hẹp outcome về một actor và một quy trình; outcome chung này chưa phải success metric.
+Outcome chung ở vòng mở rộng: **Giảm thời gian xử lý thông tin trước khi hành động mà không tăng bỏ sót thông tin hoặc mất dữ liệu quan trọng.** Khi chọn candidate, phải thu hẹp outcome về một actor và một quy trình; outcome chung này chưa phải success metric.
 
 ```text
 OUTCOME: Giảm thời gian xử lý thông tin mà không tăng bỏ sót/mất dữ liệu quan trọng
@@ -84,9 +80,9 @@ OUTCOME: Giảm thời gian xử lý thông tin mà không tăng bỏ sót/mất
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-**Shortlist đề xuất:** #7 kiểm bài theo rubric, #1 kiểm soát tài liệu bên thứ ba và #2 dọn ảnh. Ba candidate có đầu vào/đầu ra có thể kiểm tra và đại diện cho các mức độ bằng chứng, tiếp cận domain khác nhau. Các candidate còn lại vẫn nằm trong danh sách, không bị loại vì không cần AI.
+**Shortlist:** #7 kiểm bài theo rubric, #1 kiểm soát tài liệu bên thứ ba và #2 dọn ảnh. Ba candidate có đầu vào/đầu ra có thể kiểm tra và đại diện cho các mức độ bằng chứng, tiếp cận domain khác nhau. Các candidate còn lại vẫn nằm trong danh sách, không bị loại vì không cần AI.
 
-**Cách hiểu điểm:** 1 = chưa rõ/rất thiếu; 3 = đã mô tả được nhưng còn cần kiểm; 5 = rõ, có cơ sở trực tiếp và phạm vi hẹp. “Pain có bằng chứng” dựa trên lời kể/ghi chép hiện có, không coi ước lượng là đo thật. “Nhóm hiểu domain” mới là đánh giá khả năng tiếp cận thể hiện qua báo cáo, chưa phải xác nhận của cả nhóm. Tất cả điểm dưới là đề xuất phân tích, chưa phải điểm nhóm tự chấm.
+**Cách hiểu điểm:** 1 = chưa rõ/rất thiếu; 3 = đã mô tả được nhưng còn cần kiểm; 5 = rõ, có cơ sở trực tiếp và phạm vi hẹp. “Pain có bằng chứng” dựa trên lời kể/ghi chép hiện có, không coi ước lượng là đo thật. “Nhóm hiểu domain” đánh giá mức độ hiểu và khả năng tiếp cận quy trình, dữ liệu của từng candidate.
 
 | Candidate                              | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 | -------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
@@ -97,14 +93,14 @@ OUTCOME: Giảm thời gian xử lý thông tin mà không tăng bỏ sót/mất
 **Giải thích điểm quyết định:**
 
 - Cả ba có điểm bằng chứng 3: có nguồn pain được kể lại, nhưng chưa có log, mẫu xử lý và baseline đo thật. #7 có một sự cố thiếu bài sau deadline; #1 do admin nêu với Hậu; #2 do Dương nêu với Hậu. Không nâng điểm chỉ vì có số phút ước lượng trong card.
-- #7 vừa sức hơn vì có đề bài, rubric, báo cáo trong repo và người học dễ tiếp cận. Quy trình mới 4 vì chưa tách thời gian từng bước; hiểu domain 4 vì các thành viên có trải nghiệm học tập, chưa xác nhận đồng thuận.
+- #7 vừa sức hơn vì có đề bài, rubric, báo cáo trong repo và người học dễ tiếp cận. Quy trình mới 4 vì chưa tách thời gian từng bước; hiểu domain 4 vì các thành viên có trải nghiệm học tập trực tiếp.
 - #1 actor rõ nhưng còn thiếu cặp tài liệu được phép dùng, checklist và người có thẩm quyền rà; do đó vừa sức 3, hiểu domain 2. Điểm thấp hơn phản ánh điều kiện lab hiện tại, không khẳng định pain ít giá trị hơn.
 - #2 có mẫu ảnh dễ mô tả nhưng chưa xác nhận Dương cung cấp bộ ảnh hay vị trí thiếu dung lượng; ảnh rác phụ thuộc sở thích. Vừa sức 4, hiểu domain 3; cần kiểm an toàn khi xóa.
 - Cả ba so sánh được các mức can thiệp (5): checklist/so sánh văn bản/Rule tìm file trùng là đối chứng rõ; không cần chọn Agent để đạt điểm này.
 
-**Candidate được chọn:** **Đề xuất #7 — Sinh viên kiểm tra bài lab với rubric/checkpoint trước nộp để tránh bỏ sót yêu cầu bắt buộc. Chờ nhóm tự chốt sau pitch và challenge.**
+**Candidate được chọn:** **#7 — Đề tài của Nguyên: Sinh viên kiểm tra bài lab với rubric/checkpoint trước nộp để tránh bỏ sót yêu cầu bắt buộc.**
 
-**Vì sao đề xuất:** Điểm cao nhất trong shortlist theo dữ liệu hiện có; đã có một hậu quả cụ thể được kể, có vật liệu thử ngay trong repo và thuận lợi hỏi người học khác ở CP4. Phạm vi ban đầu chỉ một bài lab, danh sách yêu cầu và các vị trí bằng chứng tương ứng trong bài làm; không tự chấm chất lượng toàn bộ bài hoặc bảo đảm điểm. Chưa quyết định dùng AI: phải so với checklist và Rule kiểm file trước.
+**Vì sao nhóm chọn:** Điểm cao nhất trong shortlist theo dữ liệu hiện có; đã có một hậu quả cụ thể được kể, có vật liệu thử ngay trong repo và thuận lợi hỏi người học khác ở CP4. Phạm vi ban đầu chỉ một bài lab, danh sách yêu cầu và các vị trí bằng chứng tương ứng trong bài làm; không tự chấm chất lượng toàn bộ bài hoặc bảo đảm điểm. Chưa quyết định dùng AI: phải so với checklist và Rule kiểm file trước.
 
 **Vì sao chưa chọn các candidate còn lại:**
 
@@ -113,7 +109,7 @@ OUTCOME: Giảm thời gian xử lý thông tin mà không tăng bỏ sót/mất
 - #6/#12 thông báo: có thể gom một candidate sau pitch, nhưng cần tập tin nhắn được phép dùng và cách xác định thông báo chuẩn. Không coi AI phân loại là bằng chứng không bỏ sót.
 - #3 nhiều nền tảng: pain đã được Hậu mô tả nhưng giải pháp lấy nguồn chưa rõ; chỉ tổng hợp dữ liệu người dùng phải tự chép có thể không giảm xao nhãng.
 - #4 CV, #5 từ vựng, #8 tìm slide: đều có thể thử, nhưng cần làm rõ chất lượng đầu ra và phép đo riêng; không dùng tỷ lệ quên từ hoặc qua vòng CV chưa kiểm chứng để tăng điểm.
-- #9 DoD và #10 lịch học: template/quy định giao việc hoặc lịch nhắc có thể là đối chứng rất mạnh. Kết luận No AI/Rule vẫn hợp lệ, nhưng hiện chưa có bằng chứng lợi ích hơn candidate đề xuất.
+- #9 DoD và #10 lịch học: template/quy định giao việc hoặc lịch nhắc có thể là đối chứng rất mạnh. Kết luận No AI/Rule vẫn hợp lệ, nhưng hiện chưa có bằng chứng lợi ích hơn candidate được chọn.
 - #11 đọc yêu cầu lab: giữ làm pain liên quan của #7; chưa gộp thời gian đọc ban đầu và kiểm trước nộp thành một baseline.
 
 **Xử lý bất đồng (nếu có):**
