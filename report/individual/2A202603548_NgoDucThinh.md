@@ -124,15 +124,17 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 1 (Chỉnh sửa CV khớp với từng JD và theo dõi trạng thái ứng tuyển thực tập)
+- Vì sao: Đây là nỗi đau cấp bách nhất của sinh viên năm 3–4 mỗi mùa thực tập (mất 30 phút/CV cho 15–20 công ty); dữ liệu đầu vào (file CV gốc + text JD) và đầu ra (câu mô tả dự án đã tinh chỉnh + dòng theo dõi ứng tuyển) hoàn toàn nằm trong tầm kiểm soát của người dùng và dễ dàng đo lường ngay thời gian tiết kiệm được.
+- Câu hỏi muốn nhóm phản biện: Nên cắt gọn phạm vi MVP chỉ tập trung giải quyết bước "Gợi ý viết lại các gạch đầu dòng trong CV cho khớp JD" (nút thắt tốn 20 phút/lần), hay cần làm luôn cả phần "Tự động theo dõi trạng thái phản hồi ứng tuyển"? Và làm sao để kiểm soát AI chỉ diễn đạt lại dựa trên kinh nghiệm thật của sinh viên chứ không tự bịa thêm kỹ năng có trong JD?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Baseline 30 phút/CV chỉ là ước lượng dựa trên trí nhớ | Đồng ý | Bấm giờ thử nghiệm sửa thật 3 bản CV theo 3 JD khác nhau: mất lần lượt 25, 32 và 35 phút (trung bình ~30 phút). |
+| Bài toán đang gộp 2 việc rời nhau (Sửa nội dung CV theo JD và Lục tìm email phản hồi) | Đồng ý một phần | Giữ bước trích xuất thông tin JD vào bảng theo dõi lúc nộp, nhưng đưa phần "tự động đọc Gmail" vào danh sách giả định cần kiểm chứng ở CP4. |
+| Gợi ý làm Agent tự động sửa thẳng vào file CV và tự bấm nộp đơn hàng loạt | Không đồng ý | Giữ "Sinh viên tự duyệt câu chữ và tự xuất PDF nộp" làm boundary để tránh AI bịa kỹ năng (hallucination) hoặc làm vỡ bố cục CV. |
 
 ---
 
