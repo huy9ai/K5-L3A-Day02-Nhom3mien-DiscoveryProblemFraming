@@ -140,16 +140,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| **Pitch Problem Card** | Đưa ra và pitch Problem Card về **"Chỉnh sửa CV khớp với từng JD và theo dõi trạng thái ứng tuyển thực tập"** (Rank 1 của cá nhân). | Giúp nhóm chuyển hướng vào một nỗi đau cực kỳ thiết thực, có tần suất lặp lại cao mỗi mùa thực tập, đầu vào sạch và dễ dàng đo lường ngay thời gian tiết kiệm được (từ 30 phút xuống dưới 10 phút/bản). |
+| **Phản biện bài của bạn khác** | Câu hỏi tôi đã đặt: <br>*"Làm thế nào để đảm bảo hệ thống tự động lấy được các thông tin trong các group kín (như tin nhắn dặn thêm trên Zalo/Discord) ?"* | Giúp các bạn trong nhóm nhìn nhận rõ ranh giới pháp lý và kỹ thuật về nguồn dữ liệu đầu vào (Data Input).|
+| **Nhận phản biện** | Câu hỏi tôi nhận được: <br>*"Làm sao để hệ thống không tự bịa ra các kĩ năng trong CV?"*<br><br>Tôi đã sửa gì: <br>Thống nhất thiết lập ranh giới (**Boundary**) nghiêm ngặt: AI **chỉ** được phân tích từ khóa của JD và đề xuất cách diễn đạt lại dựa trên *dữ liệu kinh nghiệm thật* mà sinh viên đã cung cấp trong CV gốc; tuyệt đối không được tự ý bịa thêm kỹ năng hay số liệu không có thực (chống hallucination). Đồng thời áp dụng cơ chế **Human-in-the-loop (HITL)**: sinh viên phải tự đọc, tự duyệt từng câu gợi ý và tự xuất file PDF nộp, hệ thống không tự ý sửa đè hay tự bấm nút nộp thay. | Giúp giải pháp vừa giải quyết được nỗi đau mất thời gian viết lại CV, vừa đảm bảo tính trung thực, liêm chính học thuật và quyền kiểm soát hoàn toàn thuộc về người dùng. |
+| **Gom cluster / cây OST** | Tham gia phân cụm các candidate của cả nhóm và xây dựng nhánh Opportunity xoay quanh việc rà soát, đối chiếu và chống bỏ sót yêu cầu khi nộp bài. | Định hình rõ ràng cấu trúc cây cơ hội (Opportunity Solution Tree) từ Outcome lớn đến các nút thắt thao tác của sinh viên. |
+| **Chọn candidate problem** | Chấm điểm shortlist (1–5) cho các candidate của nhóm trên bộ tiêu chí (Actor rõ, Quy trình rõ, Pain có bằng chứng, Vừa sức lab...). | Thống nhất chọn bài toán **Kiểm tra & đối chiếu bài lab trước khi nộp** làm bài toán chung của nhóm với số điểm thuyết phục. |
+| **Kiểm chứng / research** | Tham gia phỏng vấn nhanh bạn bè (3 sinh viên) và check log nộp bài thực tế để xác thực thời gian rà soát và nguyên nhân sót mục sau deadline. | Cung cấp số liệu định lượng thực tế (mất ~18 phút rà soát thủ công, 4/12 bài bị sót mục) và tìm kiếm các case study giải pháp tham khảo (từ Checklist đến Markdown Linter). |
+| **Quy trình nhóm** | Đóng góp ý kiến phân vai phối hợp trong nhóm và xây dựng sơ đồ quy trình trước/sau (Before/After) dưới dạng mã Mermaid và bảng biểu chi tiết. | Làm rõ Bottleneck ở khâu đọc dò chéo bằng mắt suốt 7 phút, từ đó thiết kế giải pháp kết hợp **Rule + AI Workflow**. |
+| **Problem Statement** | Viết và gọt giủa bảng Problem Statement v0 cho bài nhóm (gồm Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary). | Thống nhất tuyên bố bài toán sắc sảo với mục tiêu kéo thời gian kiểm tra từ 18 phút xuống dưới 3 phút và triệt tiêu hoàn toàn tỷ lệ sót mục. |
+| **Mức can thiệp AI** | Đóng góp tư duy phân tách mức độ can thiệp AI thành 2 tầng rõ rệt: **Rule-based** (bắt lỗi cú pháp, ô trống, template thừa bằng code) và **AI Workflow** (đối chiếu ngữ nghĩa Rubric). | Giúp kiến trúc giải pháp vừa có độ chính xác tuyệt đối ở các lỗi cơ học vừa có khả năng hiểu ngữ nghĩa thông minh, tránh lạm dụng LLM vào việc không cần thiết. |
+| **Quyết định** | Đóng vai trò chốt phương án xây dựng công cụ **Pre-submit Check** tự động chạy kết hợp Rule + AI để rà soát lỗi nhanh chóng, an toàn trước giờ đóng form. | Giúp nhóm có một hướng đi cụ thể, rõ ràng, vừa sức lab và giải quyết trọn vẹn nỗi đau thực tế của sinh viên. |
 
 ---
 
@@ -157,32 +157,35 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
-
+| **CP1 Scan** | Hỏi AI góc nhìn mở rộng để tìm các biểu hiện "pain" thực tế của sinh viên sau khi tôi đã tự quét và liệt kê trước một số ý tưởng thô. | Giúp tôi hệ thống hóa các lăng kính (Lặp lại, Tốn thời gian, Tổng hợp thông tin, Pain từ người khác) thành các tình huống gần gũi. | Các con số và bối cảnh ban đầu AI đưa ra quá chung chung, mang tính định tính và không đúng với thực tế học tập của tôi. | Tôi tự điều chỉnh lại toàn bộ dữ liệu, tự viết lại câu Job Story và điền các con số đo lường dựa trên trải nghiệm thật của bản thân. |
+| **CP2 Problem Card** | Dùng AI để phản biện chéo Problem Card của mình (*"Chỉ ra điểm yếu, lỗ hổng logic hoặc rủi ro trong Job Story này thay vì viết lại thay tôi"*). | Chỉ ra được các điểm mù về mặt logic và rủi ro khi ôm đồm quá nhiều tính năng trong một Problem Card. | AI có xu hướng đề xuất các giải pháp công nghệ quá phức tạp (như Agent tự động hóa hoàn toàn) vượt quá phạm vi bài toán. | Tôi chủ động cắt giảm các tính năng lan man, siết chặt ranh giới (boundary) và tập trung vào luồng workflow cơ bản, thực tế. |
+| **CP4 Research** | Dùng AI để tìm kiếm các case study giải pháp công nghệ trên thị trường và cấu trúc hóa bảng phân loại công cụ giải pháp. | Gợi ý đa dạng các pattern công cụ có sẵn (từ Checklist No AI đến Markdown Linter) để nhóm tham khảo. | AI liệt kê các link chung chung hoặc không tự kiểm chứng được nguồn gốc thực tế của các giải pháp mang tính đặc thù môn học. | Tôi tự kiểm tra các link giải pháp, chọn lọc các công cụ thực sự phù hợp với bài toán kiểm tra bài lab và tự viết lại mục research. |
+| **CP5 Quy trình** | Nhờ AI chuyển đổi mô tả các bước rà soát thủ công thành mã sơ đồ **Mermaid** trực quan để đưa vào báo cáo. | Chuyển đổi văn bản thành code Mermaid rất nhanh, giúp sơ đồ quy trình hiển thị trực quan và sạch sẽ. | Sơ đồ Mermaid ban đầu AI vẽ tự động đôi khi nối nhầm luồng hoặc gộp sai bước giữa hiện tại và tương lai. | Tôi tự kiểm tra từng bước, sửa lại code Mermaid bằng tay để đảm bảo đúng sát số liệu thời gian đã khảo sát (18 phút/lần). |
+| **CP5–6 Problem Statement** | Dùng AI để phản biện cấu trúc Problem Statement v0 (*"Chỉ ra lỗ hổng trong các trường thông tin Actor, Bottleneck, Metric"*). | Giúp rà soát xem các trường thông tin đã logic với nhau chưa và Success Metric đã đủ tính đo lường được chưa. | Các chỉ tiêu Success Metric AI gợi ý còn khá lý thuyết, chưa bám sát vào đặc thù công cụ kiểm tra tự động của nhóm. | Tôi tự sửa lại Success Metric thành việc bấm giờ thực tế thao tác của người dùng và đếm số lỗi phát sinh sau deadline. |
+| **CP6 Mức can thiệp / quyết định** | Dùng AI để tham khảo cách phân tách ranh giới giữa **Rule-based** (xử lý cơ học) và **AI Workflow** (xử lý ngữ nghĩa). | Làm rõ sự khác biệt kỹ thuật để giải thích vì sao cần kết hợp cả code kiểm tra cấu trúc lẫn AI đối chiếu Rubric. | AI hời hợt đề xuất dùng AI đọc hiểu mọi thứ kể cả định dạng file, bỏ quên mất lỗi cơ học phổ biến là sinh viên hay quên đính kèm file trong thư mục. | Tôi tự bổ sung thêm phần kiểm tra cấu trúc thư mục và link ảnh vào tầng Rule-based để bắt trọn các lỗi cơ học thực tế. |
 ---
 
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+Khi nghe top 3 problems của các bạn, tôi nhận ra một điểm mù chung là rất nhiều bạn hay sa đà vào các vấn đề mang tính "vĩ mô" hoặc phụ thuộc vào nền tảng đóng mà quên mất rằng trong khuôn khổ một buổi lab, tính khả thi và khả năng kiểm chứng dữ liệu (Feasibility) quan trọng hơn sự hoành tráng của ý tưởng. Tôi cũng học được cách các nhóm bạn đặt câu hỏi xoáy sâu vào "bằng chứng thực tế" và "tần suất lặp lại" thay vì chỉ nghe bề nổi của một nỗi đau, giúp tôi nhìn nhận các vấn đề của chính mình một cách tỉnh táo hơn.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+Có, nhóm tôi đã vướng vào bẫy này ngay ở buổi đầu khi bàn về ý tưởng gom thông báo nhà trường. Cả nhóm lập tức nhao lên bàn về việc "cần làm một con AI chatbot tự động gom tin nhắn Zalo", mà chưa chịu mổ xẻ xem thực ra sinh viên mất thời gian ở bước nào và Zalo có cho phép cào dữ liệu hay không. Nhóm chỉ nhận ra khi bắt đầu viết vào khung Opportunity Solution Tree (OST) và bị vấp ngay câu hỏi kiểm tra: "Đấy là công cụ hay là nỗi đau?". Lúc đó, chúng tôi đã phải dừng lại, gạch bỏ giải pháp chatbot và lùi về phân tích kỹ lại quy trình đọc tin nhắn thủ công hiện tại để tìm đúng "pain" cốt lõi.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Có, tôi đã đổi ý sau vòng phản biện về bài toán Sửa CV khớp JD. Ban đầu, tôi ôm đồm tính năng muốn AI làm luôn cả việc "tự động đọc email, trích xuất phản hồi từ nhà tuyển dụng và cập nhật vào bảng tracker". Tuy nhiên, khi nhận được phản biện từ thành viên trong nhóm rằng “Bài toán đang bị loãng, không rõ đâu là trọng tâm cốt lõi, và việc tự động can thiệp vào Gmail cá nhân có quá nhiều rủi ro bảo mật”.  
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+Kết quả phỏng vấn nhanh và check log nộp bài thực tế khiến tôi khá bất ngờ ở điểm: Những bạn sinh viên tự tin mình làm bài kỹ và chỉ lướt qua 2–3 phút trước khi nộp lại chính là những người hay để sót mục nhỏ nhất (như sót chữ mẫu của template,hoặc quên viết phần phản biện ở cuối). Trước đó, tôi nghĩ rằng chỉ những ai lười biếng mới nộp thiếu bài, nhưng thực tế cho thấy ngay cả sinh viên chăm chỉ khi đối mặt với áp lực thời gian lúc nửa đêm (23h50) cũng bị mù quáng trước các lỗi cấu trúc.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.5. Điều khó nhất khi viết Problem Statement là gì**    
+Đối với tôi, điều khó nhất khi viết Problem Statement là giữ cho nó không bị nhiễm từ ngữ của giải pháp, và cô đọng đúng cái nút thắt (Bottleneck) đắt giá nhất trong một quy trình dài. Rất dễ bị viết thành "Cần một công cụ AI để..." thay vì mô tả đúng bản chất con người đang gặp khó ở bước nào, mất bao nhiêu phút và hậu quả ra sao. Việc gọt giũa câu từ sao cho vừa ngắn gọn, vừa có số liệu định lượng (baseline) rõ ràng đòi hỏi phải kiên nhẫn bóc tách từng bước nhỏ của quy trình hiện tại.  
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu được làm lại, tôi sẽ đẩy nhanh tốc độ phỏng vấn kiểm chứng thực tế ngay từ ngày đầu tiên thay vì mất quá nhiều thời gian tranh cãi. Về phần phản biện, tôi sẽ phản biện nhóm mạnh hơn ở điểm tính đo lường được của Success Metric. Lần này, một số chỉ tiêu ban đầu của chúng tôi còn hơi cảm tính (như ước lượng thời gian giảm từ 18 phút xuống 3 phút), nếu làm lại tôi sẽ yêu cầu nhóm bấm giờ trực tiếp trên mẫu thử (prototype) ngay từ bước CP3 để có baseline thuyết phục hơn.  
+**6.7. Hiểu bài:**  
+bắt đầu từ problem: Sinh viên tốn 15–20 phút rà soát thủ công trước khi nộp bài lab nhưng vẫn thường xuyên bỏ sót các mục bắt buộc do đọc dò bằng mắt lúc nửa đêm. Quy trình hiện tại gồm 5 bước từ gom yêu cầu, kiểm tra cấu trúc đến đọc chéo nội dung, trong đó bottleneck nặng nhất nằm ở khâu đọc dò chéo bằng mắt kéo dài 7 phút. Để đo lường hiệu quả, metric được đặt ra là kéo tổng thời gian rà soát xuống dưới 3 phút và triệt tiêu hoàn toàn tỷ lệ sót mục sau deadline. Nhóm thiết lập một boundary nghiêm ngặt là AI tuyệt đối không tự ý viết bài hay nộp thay, mà chỉ đóng vai trò Read-only Report (HITL - con người giữ quyền quyết định cuối cùng). Dựa trên mức can thiệp AI kết hợp giữa Rule (bắt lỗi cú pháp, ô rỗng, template thừa bằng code) và AI Workflow (đối chiếu ngữ nghĩa Rubric), quyết định cuối cùng của nhóm là xây dựng một công cụ Pre-submit Check tự động giúp sinh viên rà soát lỗi nhanh chóng, an toàn và chuẩn xác trước khi bấm nút nộp bài.
 
 ---
 
