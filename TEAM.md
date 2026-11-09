@@ -13,9 +13,9 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Phan Trọng Hậu | 2A202603547 | Phụ trách chính CP3; phản biện, khảo sát và trao đổi giải pháp chung | [Phan-Trong-Hau](https://github.com/Phan-Trong-Hau) |
-| 2 | Ngô Đức Thịnh | 2A202603548 | | |
-| 3 | Đinh Trần Nguyên | 2A202603517 | | |
-| 4 | Bùi Gia Huy | 2A202603525 | | |
+| 2 | Ngô Đức Thịnh | 2A202603548 | Phụ trách chính CP5: quy trình trước/sau và Problem Statement v0; tham gia trao đổi các phần còn lại | [NgooThinh05](https://github.com/NgooThinh05) |
+| 3 | Đinh Trần Nguyên | 2A202603517 | Phụ trách chính CP4: kiểm chứng và research; cùng Hậu thực hiện khảo sát; tham gia trao đổi các phần còn lại | [nguyentrandinh-hub](https://github.com/nguyentrandinh-hub) |
+| 4 | Bùi Gia Huy | 2A202603525 | Phụ trách chính CP6: mức can thiệp, Problem Statement v1 và quyết định; tham gia trao đổi các phần còn lại | [huy9ai](https://github.com/huy9ai) |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,13 +25,15 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | Phan Trọng Hậu | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | Phan Trọng Hậu (khảo sát 1 học viên) | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | Phan Trọng Hậu (tham gia trao đổi) | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | Phan Trọng Hậu (tham gia trao đổi) | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | Phan Trọng Hậu (tham gia trao đổi) | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | Phan Trọng Hậu (tham gia trao đổi) | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Phan Trọng Hậu | Đinh Trần Nguyên, Ngô Đức Thịnh, Bùi Gia Huy (cùng trao đổi) | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Đinh Trần Nguyên | Phan Trọng Hậu (cùng Nguyên thực hiện khảo sát); Ngô Đức Thịnh, Bùi Gia Huy (cùng trao đổi) | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Đinh Trần Nguyên | Phan Trọng Hậu, Ngô Đức Thịnh, Bùi Gia Huy (cùng trao đổi) | Bảng research có link |
+| CP5 — Quy trình trước/sau | Ngô Đức Thịnh | Phan Trọng Hậu, Đinh Trần Nguyên, Bùi Gia Huy (cùng trao đổi) | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Ngô Đức Thịnh | Phan Trọng Hậu, Đinh Trần Nguyên, Bùi Gia Huy (cùng trao đổi) | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Bùi Gia Huy | Phan Trọng Hậu, Đinh Trần Nguyên, Ngô Đức Thịnh (cùng trao đổi) | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Bùi Gia Huy | Phan Trọng Hậu, Đinh Trần Nguyên, Ngô Đức Thịnh (cùng trao đổi) | 4 rủi ro + Go/Not Yet/No-Go |
+
+**Thực hiện khảo sát:** Phan Trọng Hậu và Đinh Trần Nguyên.
 
 ## Cá nhân
 
