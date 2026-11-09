@@ -39,23 +39,42 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### Đinh Trần Nguyên - 2A202603517
 
 **Phần việc phụ trách:**
 
--
+- Đề xuất và pitch vấn đề sinh viên bỏ sót yêu cầu khi kiểm tra bài lab theo Rubric/Checkpoint.
+- Tham gia phản biện Problem Cards, gom cluster, xây dựng OST và lựa chọn candidate problem.
+- **Phụ trách chính CP4 — Kiểm chứng giả định và nghiên cứu giải pháp hiện có.**
+- Tham gia xây dựng workflow, Problem Statement và thảo luận mức can thiệp AI.
 
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+**Đóng góp cụ thể (mình đã làm gì, ra sản phẩm gì):**
 
--
+- Xây dựng Problem Card #7 về kiểm tra bài nộp theo rubric, xác định actor, pain, bottleneck, impact và metric.
+- Phản biện tính cần thiết của AI trong bài toán so sánh hợp đồng của Hậu; góp ý cho Thịnh tránh cách tiếp cận solution-first.
+- Hỗ trợ nhóm xác định Outcome chung, gom 12 candidate thành 4 cluster và xây dựng OST.
+- Tham gia đánh giá shortlist, đề xuất chọn candidate #7.
+- Phụ trách CP4: xây dựng Assumption Map, soạn câu hỏi phỏng vấn, ghi nhận kết quả phỏng vấn và nghiên cứu GitHub Task Lists, GitHub Actions, NotebookLM.
+- Đề xuất cách phân tích workflow As-Is/To-Be, xác định bottleneck và sử dụng thời gian làm metric.
+- Xác định actor, pain, impact và phạm vi Problem Statement ban đầu; cùng nhóm chỉnh sửa và thu hẹp vấn đề.
+- Đề xuất LLM Feature, tiếp nhận phản biện về checklist/script và tham gia thảo luận dẫn đến quyết định **Not Yet** của nhóm.
 
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+**Bằng chứng (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):**
 
--
+- `group_report.md`: Phần tổng hợp candidate, phân nhóm cluster và Opportunity Solution Tree.
+- `group_report.md`: Phần shortlist, chấm điểm và lựa chọn candidate #7.
+- `group_report.md`: Phần CP4 — Assumption Map, phỏng vấn và research giải pháp hiện có.
+- `group_report.md`: Phần workflow, Problem Statement và quyết định mức can thiệp AI (Not Yet).
+- `report/assets/`: Bổ sung đường dẫn các hình ảnh, sơ đồ hoặc minh chứng thực tế nếu nhóm đã lưu.
+- Commit: Bổ sung mã commit hoặc liên kết Pull Request tương ứng với phần bạn thực hiện sau khi kiểm tra GitHub.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Nhận ra vấn đề thực tế chưa đồng nghĩa với việc đã xác định chính xác bottleneck; cần phân tích workflow và kiểm chứng nguyên nhân.
+- Học cách phân biệt problem-first và solution-first khi thảo luận.
+- Hiểu rằng không phải vấn đề nào cũng cần AI; cần so sánh với checklist, script và các giải pháp đơn giản trước.
+- Biết tiếp nhận phản biện để điều chỉnh phạm vi đề xuất, thay vì cố bảo vệ giải pháp ban đầu.
+- Nhận ra tầm quan trọng của bằng chứng thực tế, metric và việc giới hạn phạm vi khi xây dựng Problem Statement.
 
 
 ### PhanTrongHau-2A202603547
