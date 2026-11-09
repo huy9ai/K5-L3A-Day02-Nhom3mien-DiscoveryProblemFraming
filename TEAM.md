@@ -113,3 +113,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Tính khả thi và khả năng kiểm chứng (Feasibility) quan trọng hơn các ý tưởng vĩ mô.
 - Tránh bẫy "solution-first" bằng cách dùng cây OST để lùi về mổ xẻ quy trình thủ công và tìm đúng pain cốt lõi.
 - Rèn được cách viết Problem Statement không nhiễm từ ngữ giải pháp, cô đọng đúng bottleneck kèm số liệu định lượng (baseline → target) và phân tách rõ ranh giới giữa Rule-based với AI Workflow.
+
+### BuiGiaHuy-2A202603525
+
+**Phần việc phụ trách:**
+
+- Phụ trách chính CP6 — phân tích mức can thiệp AI, viết Problem Statement v1 kèm tiêu chí đánh giá đầu ra và chốt quyết định cuối.
+- Tham gia pitch, phản biện và cùng các thành viên trao đổi hướng giải quyết ở các checkpoint còn lại.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đưa ra 3 Problem Cards cá nhân từ trải nghiệm đi học hàng ngày (#10 tra cứu lịch học và canh giờ xe buýt, #11 đọc nhiều file hướng dẫn đầu buổi lab, #12 tìm thông báo lớp bị trôi trên kênh chat); trong đó bài #11 gắn trực tiếp với bài toán #7 của Nguyên ở Cluster A.
+- Đặt câu hỏi phản biện cho đề tài sửa CV theo JD của Thịnh về việc làm sao để AI chỉ diễn đạt lại kinh nghiệm thật chứ không tự bịa thêm kỹ năng không có trong CV; cùng nhóm trao đổi về phạm vi kiểm bài ở đề tài #7 của Nguyên.
+- Nhận phản biện về rủi ro lấy dữ liệu từ các group chat kín (Zalo/Discord) ở bài toán thông báo lớp (#12) và việc tách riêng 20 phút di chuyển cố định bằng xe buýt ra khỏi 5 phút tra cứu web ở bài toán lịch học (#10).
+- Cùng nhóm hội tụ ở CP3 và thống nhất chọn đề tài #7 (Sinh viên đối chiếu bài lab với rubric/checkpoint trước khi nộp) của Nguyên.
+- Thực hiện chính phần CP6 (Mục 6, 7, 8, 9, 10) trong `group_report.md`: phân tích ma trận độ mơ hồ × độ phức tạp, lập bảng so sánh 4 mức (No AI / Rule / Workflow / Agent), điền AI Canvas rút gọn và trả lời 2 câu hỏi Google PAIR.
+- Cập nhật Problem Statement v0 (của Thịnh ở CP5) lên bản v1 (bổ sung nguyên nhân tài liệu phân tán và chưa thống nhất giữa `README` với `SUBMISSION` từ kết quả phỏng vấn P1, P2, P3 ở CP4 của Nguyên & Hậu), thiết lập 5 tiêu chí đánh giá đầu ra, phân tích 4 rủi ro và chốt quyết định **Not Yet** cho phần AI Workflow (ưu tiên đo hiệu quả đối chứng với Checklist + Rule trước).
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo cá nhân — mục 4, 5 và CP7](report/individual/2A202603525_BuiGiaHuy.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7).
+- [Báo cáo nhóm — CP6 Mức can thiệp AI](report/team/group_report.md#6-mức-can-thiệp-ai-cp6), [Problem Statement v1](report/team/group_report.md#7-problem-statement-v1--tiêu-chí-đánh-giá-cp6) và [Quyết định](report/team/group_report.md#8-quyết-định-cp6).
+
+**Điều mình học được từ phần nhóm:**
+
+- Hiểu rõ cách tách một quy trình kiểm tra bài lab thành phần kiểm tra cấu trúc cứng bằng **Rule** (thiếu mục, ô trống, dòng mẫu, link ảnh) và phần đối chiếu ngữ nghĩa với Rubric bằng **AI Workflow**, không lạm dụng Agent tự sửa bài thay người học.
+- Học được từ kết quả phỏng vấn thực tế ở CP4 (như trường hợp P2 dùng checklist kịp phát hiện lỗi và P3 gặp thông tin chưa thống nhất giữa `README` và `SUBMISSION`) rằng không phải lúc nào cũng cần làm AI ngay; quyết định **Not Yet** để kiểm chứng và đo bấm giờ thực tế với đối chứng Checklist + Rule trước là hướng đi chắc chắn và thực tế hơn.
