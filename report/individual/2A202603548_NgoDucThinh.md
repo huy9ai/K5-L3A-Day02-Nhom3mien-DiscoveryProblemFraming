@@ -143,13 +143,13 @@ Quy trình nháp hiện tại:
 | **Pitch Problem Card** | Đưa ra và pitch Problem Card về **"Chỉnh sửa CV khớp với từng JD và theo dõi trạng thái ứng tuyển thực tập"** (Rank 1 của cá nhân). | Giúp nhóm chuyển hướng vào một nỗi đau cực kỳ thiết thực, có tần suất lặp lại cao mỗi mùa thực tập, đầu vào sạch và dễ dàng đo lường ngay thời gian tiết kiệm được (từ 30 phút xuống dưới 10 phút/bản). |
 | **Phản biện bài của bạn khác** | Câu hỏi tôi đã đặt: <br>*"Làm thế nào để đảm bảo hệ thống tự động lấy được các thông tin trong các group kín (như tin nhắn dặn thêm trên Zalo/Discord) ?"* | Giúp các bạn trong nhóm nhìn nhận rõ ranh giới pháp lý và kỹ thuật về nguồn dữ liệu đầu vào (Data Input).|
 | **Nhận phản biện** | Câu hỏi tôi nhận được: <br>*"Làm sao để hệ thống không tự bịa ra các kĩ năng trong CV?"*<br><br>Tôi đã sửa gì: <br>Thống nhất thiết lập ranh giới (**Boundary**) nghiêm ngặt: AI **chỉ** được phân tích từ khóa của JD và đề xuất cách diễn đạt lại dựa trên *dữ liệu kinh nghiệm thật* mà sinh viên đã cung cấp trong CV gốc; tuyệt đối không được tự ý bịa thêm kỹ năng hay số liệu không có thực (chống hallucination). Đồng thời áp dụng cơ chế **Human-in-the-loop (HITL)**: sinh viên phải tự đọc, tự duyệt từng câu gợi ý và tự xuất file PDF nộp, hệ thống không tự ý sửa đè hay tự bấm nút nộp thay. | Giúp giải pháp vừa giải quyết được nỗi đau mất thời gian viết lại CV, vừa đảm bảo tính trung thực, liêm chính học thuật và quyền kiểm soát hoàn toàn thuộc về người dùng. |
-| **Gom cluster / cây OST** | Tham gia phân cụm các candidate của cả nhóm và xây dựng nhánh Opportunity xoay quanh việc rà soát, đối chiếu và chống bỏ sót yêu cầu khi nộp bài. | Định hình rõ ràng cấu trúc cây cơ hội (Opportunity Solution Tree) từ Outcome lớn đến các nút thắt thao tác của sinh viên. |
-| **Chọn candidate problem** | Chấm điểm shortlist (1–5) cho các candidate của nhóm trên bộ tiêu chí (Actor rõ, Quy trình rõ, Pain có bằng chứng, Vừa sức lab...). | Thống nhất chọn bài toán **Kiểm tra & đối chiếu bài lab trước khi nộp** làm bài toán chung của nhóm với số điểm thuyết phục. |
-| **Kiểm chứng / research** | Tham gia phỏng vấn nhanh bạn bè (3 sinh viên) và check log nộp bài thực tế để xác thực thời gian rà soát và nguyên nhân sót mục sau deadline. | Cung cấp số liệu định lượng thực tế (mất ~18 phút rà soát thủ công, 4/12 bài bị sót mục) và tìm kiếm các case study giải pháp tham khảo (từ Checklist đến Markdown Linter). |
-| **Quy trình nhóm** | Đóng góp ý kiến phân vai phối hợp trong nhóm và xây dựng sơ đồ quy trình trước/sau (Before/After) dưới dạng mã Mermaid và bảng biểu chi tiết. | Làm rõ Bottleneck ở khâu đọc dò chéo bằng mắt suốt 7 phút, từ đó thiết kế giải pháp kết hợp **Rule + AI Workflow**. |
-| **Problem Statement** | Viết và gọt giủa bảng Problem Statement v0 cho bài nhóm (gồm Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary). | Thống nhất tuyên bố bài toán sắc sảo với mục tiêu kéo thời gian kiểm tra từ 18 phút xuống dưới 3 phút và triệt tiêu hoàn toàn tỷ lệ sót mục. |
-| **Mức can thiệp AI** | Đóng góp tư duy phân tách mức độ can thiệp AI thành 2 tầng rõ rệt: **Rule-based** (bắt lỗi cú pháp, ô trống, template thừa bằng code) và **AI Workflow** (đối chiếu ngữ nghĩa Rubric). | Giúp kiến trúc giải pháp vừa có độ chính xác tuyệt đối ở các lỗi cơ học vừa có khả năng hiểu ngữ nghĩa thông minh, tránh lạm dụng LLM vào việc không cần thiết. |
-| **Quyết định** | Đóng vai trò chốt phương án xây dựng công cụ **Pre-submit Check** tự động chạy kết hợp Rule + AI để rà soát lỗi nhanh chóng, an toàn trước giờ đóng form. | Giúp nhóm có một hướng đi cụ thể, rõ ràng, vừa sức và giải quyết trọn vẹn nỗi đau thực tế của học viên. |
+| **Gom cluster / cây OST** | Tham gia phân cụm các candidate của cả nhóm  |  |
+| **Chọn candidate problem** | Cùng các bạn trao đổi chọn problem. | Thống nhất chọn bài toán **Kiểm tra & đối chiếu bài lab trước khi nộp** làm bài toán chung của nhóm với số điểm thuyết phục. |
+| **Kiểm chứng / research** | Tham gia phỏng vấn nhanh bạn bè (1 học viên) | Cung cấp số liệu định lượng thực tế|
+| **Quy trình nhóm** | Phần làm chính và xây dựng sơ đồ quy trình trước/sau (Before/After) dưới dạng mã Mermaid và bảng biểu chi tiết. | Làm rõ Bottleneck, từ đó thiết kế giải pháp kết hợp **Rule + AI Workflow**. |
+| **Problem Statement** | Cùng trao đổi về  hướng giải quyết chung. |
+| **Mức can thiệp AI** | Cùng các bạn trao đổi về các vẫn đề AI và LLM. |
+| **Quyết định** | Cùng các bạn trao đổi về quy trình và hướng giải quyết chung. | Giúp nhóm có một hướng đi cụ thể, rõ ràng, vừa sức và giải quyết trọn vẹn nỗi đau thực tế của học viên. |
 
 ---
 
@@ -167,7 +167,6 @@ Quy trình nháp hiện tại:
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
 Khi nghe top 3 problems của các bạn, tôi nhận ra một điểm mù chung là rất nhiều bạn hay sa đà vào các vấn đề mang tính "vĩ mô" hoặc phụ thuộc vào nền tảng đóng mà quên mất rằng trong khuôn khổ một buổi lab, tính khả thi và khả năng kiểm chứng dữ liệu (Feasibility) quan trọng hơn sự hoành tráng của ý tưởng. Tôi cũng học được cách các nhóm bạn đặt câu hỏi xoáy sâu vào "bằng chứng thực tế" và "tần suất lặp lại" thay vì chỉ nghe bề nổi của một nỗi đau, giúp tôi nhìn nhận các vấn đề của chính mình một cách tỉnh táo hơn.

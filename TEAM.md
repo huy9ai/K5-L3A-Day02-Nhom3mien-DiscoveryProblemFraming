@@ -84,3 +84,32 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Hiểu rõ hơn phạm vi đề tài của Nguyên và Thịnh qua phần giải thích khi phản biện.
 - Bất ngờ vì có nhiều người cũng quên hoặc bỏ sót yêu cầu khi làm và nộp bài lab.
+
+
+### NgoDucThinh-2A202603548
+
+**Phần việc phụ trách:**
+
+- Phụ trách chính CP5 — xây dựng quy trình trước/sau (Before/After) và viết Problem Statement v0.
+- Tham gia kiểm chứng, phân cụm và cùng các thành viên trao đổi hướng giải quyết ở các checkpoint còn lại.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đưa ra và pitch Problem Card về "Chỉnh sửa CV khớp với từng JD và theo dõi trạng thái ứng tuyển thực tập" (Rank 1 cá nhân).
+- Đặt câu hỏi phản biện cho bài của bạn khác về khả năng lấy thông tin tự động từ các group kín (Zalo/Discord) liên quan đến ranh giới pháp lý và kỹ thuật của nguồn dữ liệu đầu vào.
+- Tiếp thu phản biện cho bài toán CV/JD và thiết lập Boundary nghiêm ngặt (chỉ gợi ý diễn đạt lại từ kinh nghiệm thật, không tự bịa kỹ năng) kèm cơ chế Human-in-the-loop (HITL).
+- Tham gia phân cụm các candidate của nhóm (Cluster / cây OST) và thống nhất chọn đề tài kiểm tra & đối chiếu bài lab trước khi nộp.
+- Tham gia phỏng vấn nhanh 1 học viên và tìm kiếm các công cụ/pattern giải pháp để đóng góp số liệu cho phần kiểm chứng, research (CP4).
+- Xây dựng sơ đồ quy trình hiện tại và tương lai, lập bảng đối chiếu Before/After chi tiết kết hợp Rule-based (bắt lỗi cấu trúc, ô trống, dòng mẫu, link ảnh) và AI Workflow (đối chiếu ngữ nghĩa Rubric), thiết lập Boundary (Read-only Audit Report) và Fallback khi AI sai (CP5).
+- Soạn thảo bảng Problem Statement v0 (Actor, Quy trình, Bottleneck, Impact, Success Metric, Boundary) và bảng xử lý phản biện cho CP5; cùng nhóm trao đổi về mức can thiệp AI và quyết định ở CP6.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo cá nhân — mục 4, 5 và CP7](report/individual/2A202603548_NgoDucThinh.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7).
+- [Báo cáo nhóm — CP5 Quy trình trước/sau](report/team/group_report.md#4-quy-trình-trướcsau-cp5) và [Problem Statement v0](report/team/group_report.md#5-problem-statement-v0-cp5).
+
+**Điều mình học được từ phần nhóm:**
+
+- Tính khả thi và khả năng kiểm chứng (Feasibility) quan trọng hơn các ý tưởng vĩ mô.
+- Tránh bẫy "solution-first" bằng cách dùng cây OST để lùi về mổ xẻ quy trình thủ công và tìm đúng pain cốt lõi.
+- Rèn được cách viết Problem Statement không nhiễm từ ngữ giải pháp, cô đọng đúng bottleneck kèm số liệu định lượng (baseline → target) và phân tách rõ ranh giới giữa Rule-based với AI Workflow.
